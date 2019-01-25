@@ -2,4 +2,6 @@
 Repository to post Homework's and Projects for the course Advanced Embedded Software Design conducted at University of Colorado Boulder, Spring 2019.
 
 1) HW1  
-   utils - contains script to print system information(info.sh) and example output file(info.txt)
+   /utils - contains script to print system information(info.sh) and example output file(info.txt)  
+   /BBB - contains makefiles used for cross compiling for BeagleBone  
+   /QEMU - contains makefiles used for cross compiling  for QEMU
