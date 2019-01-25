@@ -1,0 +1,98 @@
+User Information : uid=1000(sanjuprakash) gid=1000(sanjuprakash) groups=1000(sanjuprakash),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),116(lpadmin),126(sambashare)
+
+
+-----------------------------------------------------------------------------------------------------------
+
+Operating system type/brand : GNU/Linux
+
+
+-----------------------------------------------------------------------------------------------------------
+
+OS Distribution : Description:	Ubuntu 18.04.1 LTS
+
+
+-----------------------------------------------------------------------------------------------------------
+
+OS Version : VERSION="18.04.1 LTS (Bionic Beaver)"
+
+
+-----------------------------------------------------------------------------------------------------------
+
+Kernel Version : 4.15.0-43-generic
+
+
+-----------------------------------------------------------------------------------------------------------
+
+Kernel gcc version build : gcc (Ubuntu 7.3.0-27ubuntu1~18.04) 7.3.0
+
+
+-----------------------------------------------------------------------------------------------------------
+
+Kernel Build Time : #46-Ubuntu SMP Thu Dec 6 14:45:28 UTC 2018
+
+
+-----------------------------------------------------------------------------------------------------------
+
+System Architecture Information : 
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit
+Byte Order:          Little Endian
+CPU(s):              4
+On-line CPU(s) list: 0-3
+Thread(s) per core:  2
+Core(s) per socket:  2
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               78
+Model name:          Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz
+Stepping:            3
+CPU MHz:             1303.162
+CPU max MHz:         3400.0000
+CPU min MHz:         400.0000
+BogoMIPS:            5616.00
+Virtualization:      VT-x
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            256K
+L3 cache:            4096K
+NUMA node0 CPU(s):   0-3
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx smx est tm2 ssse3 sdbg fma cx16 xtpr pdcm pcid sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb invpcid_single pti ssbd ibrs ibpb stibp tpr_shadow vnmi flexpriority ept vpid fsgsbase tsc_adjust bmi1 hle avx2 smep bmi2 erms invpcid rtm mpx rdseed adx smap clflushopt intel_pt xsaveopt xsavec xgetbv1 xsaves dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp flush_l1d
+
+
+-----------------------------------------------------------------------------------------------------------
+
+Information on File System Memory : 
+Filesystem      Size  Used Avail Use% Mounted on
+udev            7.8G     0  7.8G   0% /dev
+tmpfs           1.6G  2.1M  1.6G   1% /run
+/dev/nvme0n1p5   19G  7.2G   11G  42% /
+tmpfs           7.8G   58M  7.8G   1% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           7.8G     0  7.8G   0% /sys/fs/cgroup
+/dev/loop1       87M   87M     0 100% /snap/core/4917
+/dev/loop0      141M  141M     0 100% /snap/gnome-3-26-1604/70
+/dev/loop2      3.8M  3.8M     0 100% /snap/gnome-system-monitor/51
+/dev/loop3       15M   15M     0 100% /snap/gnome-logs/37
+/dev/loop5      2.4M  2.4M     0 100% /snap/gnome-calculator/180
+/dev/loop4       35M   35M     0 100% /snap/gtk-common-themes/319
+/dev/loop6       30M   30M     0 100% /snap/sublime-text/44
+/dev/loop7       15M   15M     0 100% /snap/gnome-logs/45
+/dev/loop8       13M   13M     0 100% /snap/gnome-characters/139
+/dev/loop9       90M   90M     0 100% /snap/core/6130
+/dev/loop10     2.3M  2.3M     0 100% /snap/gnome-calculator/260
+/dev/loop12      30M   30M     0 100% /snap/sublime-text/38
+/dev/loop11      13M   13M     0 100% /snap/gnome-characters/103
+/dev/loop13      35M   35M     0 100% /snap/gtk-common-themes/818
+/dev/loop14     141M  141M     0 100% /snap/gnome-3-26-1604/74
+/dev/loop15     3.8M  3.8M     0 100% /snap/gnome-system-monitor/57
+/dev/nvme0n1p1  495M   31M  465M   7% /boot/efi
+/dev/nvme0n1p6  105G   27G   73G  27% /home
+tmpfs           1.6G   16K  1.6G   1% /run/user/121
+tmpfs           1.6G   44K  1.6G   1% /run/user/1000
+/dev/nvme0n1p3  351G  183G  169G  53% /media/sanjuprakash/OS
+
+
+-----------------------------------------------------------------------------------------------------------
+
