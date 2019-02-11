@@ -2,10 +2,10 @@
  * @\file	kernel_sort_cron.c
  * @\author	Sanju Prakash Kannioth
  * @\brief	This program calls a user written system call ksort every 10 minutes to sort a user array in kernel space 
- *			using CRON
+ *		using CRON
  * @\date	02/10/2019
  * References: https://www.geeksforgeeks.org/merge-sort/, 
- *			   https://stackoverflow.com/questions/2408976/struct-timeval-to-printable-format
+ *	       https://stackoverflow.com/questions/2408976/struct-timeval-to-printable-format
  *
  */
 
@@ -27,7 +27,7 @@ k_printArr
 * This function prints the array
 *
 *   @\param arr     array input to be printed
-*			len 	array length
+*	    len     array length
 
 *   @\return        void
 *
