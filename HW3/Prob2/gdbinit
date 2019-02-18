@@ -1,0 +1,4 @@
+target extended-remote 169.254.171.47:8003
+remote put /home/sanjuprakash/Desktop/AESD/HW3/Prob2/k_sort k_sort
+set remote exec-file k_sort
+file k_sort
