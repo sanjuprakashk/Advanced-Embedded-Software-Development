@@ -1,20 +1,45 @@
 
-Socket server! PID : 11080
-Socket client! PID : 11081
-[1551470415]		Client sending: sanju
-[1551470415]		Server received - Message: sanju LED state: 0
-[1551470418]		Server sending: prajajsd
-[1551470418]		Client received:- Message: prajajsd LED state: 0
-[1551470420]		Client sending: sup
-[1551470420]		Server received - Message: sup LED state: 0
-[1551470422]		Server sending: LEDON
-[1551470422]		Client received:- Message: LEDON LED state: 1
-[1551470425]		Client sending: LEDOFF
-[1551470425]		Server received - Message: LEDOFF LED state: 0
-[1551470429]		Server sending: LEDOFF
-[1551470429]		Client received:- Message: LEDOFF LED state: 0
-[1551470433]		Client sending: LEDON
-[1551470433]		Server received - Message: LEDON LED state: 1
-[1551470436]	 Server exit!
-[1551470436]		Client received:- Message: LEDON LED state: 1
-[1551470437]	 Client exit!
+Socket server! PID : 2390
+Socket client! PID : 2391
+[2311]		Client sending: LEDON
+[2311]		Server received - Message: LEDON LED state: 1
+[2325]		Server sending: LEDOFF
+[2325]		Client received:- Message: LEDOFF LED state: 0
+[2333]		Client sending: code
+[2333]		Server received - Message: code LED state: 0
+[2338]		Server sending: life
+[2338]		Client received:- Message: life LED state: 0
+[2350]		Client sending: APES
+[2350]		Server received - Message: APES LED state: 0
+[2354]		Server sending: PES
+[2354]		Client received:- Message: PES LED state: 0
+[2361]		Client sending: How's it going
+[2361]		Server received - Message: How's it going LED state: 0
+[2367]		Server sending: very good
+[2367]		Client received:- Message: very good LED state: 0
+[2372]		Client sending: process
+[2372]		Server received - Message: process LED state: 0
+[2377]		Server sending: thread
+[2377]		Client received:- Message: thread LED state: 0
+[2382]		Client sending: multi thread
+[2382]		Server received - Message: multi thread LED state: 0
+[2387]		Server sending: gdb
+[2387]		Client received:- Message: gdb LED state: 0
+[2392]		Client sending: LEDOFF
+[2392]		Server received - Message: LEDOFF LED state: 0
+[2396]		Server sending: LEDON
+[2396]		Client received:- Message: LEDON LED state: 1
+[2402]		Client sending: polar vortex
+[2402]		Server received - Message: polar vortex LED state: 0
+[2407]		Server sending: just random
+[2407]		Client received:- Message: just random LED state: 0
+[2412]		Client sending: sanju prakash
+[2412]		Server received - Message: sanju prakash LED state: 0
+[2417]		Server sending: kannioth
+[2417]		Client received:- Message: kannioth LED state: 0
+[2421]		Client sending: LEDOFF
+[2421]		Server received - Message: LEDOFF LED state: 0
+[2426]		Server sending: LEDON
+[2426]		Client received:- Message: LEDON LED state: 1
+[2432]	 Server exit!
+[2434]	 Client exit!
