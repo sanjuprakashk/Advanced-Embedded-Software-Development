@@ -1,3 +1,12 @@
+/*
+ * File : ipc_shared_mem_process2.c
+ *
+ *  Created on: Feb 28, 2019
+ *  Author: Sanju Prakash Kannioth
+ *  Reference: https://www.youtube.com/watch?v=dQE6BDNc3z0,
+ *		       
+ *
+ */
 #include <sys/mman.h>
 #include <sys/stat.h>       
 #include <fcntl.h>

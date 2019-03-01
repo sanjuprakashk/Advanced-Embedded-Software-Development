@@ -1,3 +1,13 @@
+/*
+ * File : ipc_pipes.c
+ *
+ *  Created on: Feb 28, 2019
+ *  Author: Sanju Prakash Kannioth
+ *  Reference: https://www.youtube.com/watch?v=7bNMkvcOKlc,  
+               https://www.geeksforgeeks.org/c-program-demonstrate-fork-and-pipe/
+ *
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdint.h>

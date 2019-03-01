@@ -1,3 +1,12 @@
+/*
+ * File : bbg_pthread.c
+ *
+ *  Created on: Feb 28, 2019
+ *  Author: Sanju Prakash Kannioth
+ *  Reference: https://www.youtube.com/watch?v=ynCc-v0K-do&list=LLNT8xg5eYSQAIxz0BSdl3zQ&index=3&t=0s
+ *
+ */
+
 #include<stdio.h>
 #include<pthread.h>
 #include<unistd.h>

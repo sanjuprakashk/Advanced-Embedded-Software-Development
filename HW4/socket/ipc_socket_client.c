@@ -1,3 +1,12 @@
+/*
+ * File : ipc_socker_client.c
+ *
+ *  Created on: Feb 28, 2019
+ *  Author: Sanju Prakash Kannioth
+ *  Reference:https://www.youtube.com/watch?v=pFLQkmnmD0o&list=LLNT8xg5eYSQAIxz0BSdl3zQ&index=2&t=0s,
+ *				    https://vinodthebest.wordpress.com/category/c-programming/c-network-programming/
+ *
+ */
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>

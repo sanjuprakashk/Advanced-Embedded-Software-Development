@@ -1,3 +1,12 @@
+/*
+ * File : ipc_message_queue_process2.c
+ *
+ *  Created on: Feb 28, 2019
+ *  Author: Sanju Prakash Kannioth
+ *  Reference: https://www.youtube.com/watch?v=i0XUbhIBbEc,
+ *             https://www.tutorialspoint.com/inter_process_communication/inter_process_communication_message_queues.htm,
+ *             https://www.geeksforgeeks.org/ipc-using-message-queues/
+ */
 #include <stdio.h>
 #include <signal.h>
 #include <stdlib.h>

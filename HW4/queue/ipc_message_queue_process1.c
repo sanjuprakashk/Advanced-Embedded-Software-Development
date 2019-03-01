@@ -1,3 +1,11 @@
+/*
+ * File : ipc_message_queue_process1.c
+ *
+ *  Created on: Feb 28, 2019
+ *  Author: Sanju Prakash Kannioth
+ *  Reference: https://www.youtube.com/watch?v=i0XUbhIBbEc
+ *
+ */
 #include <stdio.h>
 #include <signal.h>
 #include <stdlib.h>
