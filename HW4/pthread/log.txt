@@ -91,5 +91,3 @@ CPU Utilization = 5.042246 %
 CPU Utilization = 5.042347 %
 CPU Utilization = 5.042437 %
 CPU Utilization = 5.042511 %
-Thread 2 Exit due to USR1 signal
-Time taken for thread 2 execution = 8.410993 seconds
