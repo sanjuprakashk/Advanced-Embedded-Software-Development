@@ -1,0 +1,46 @@
+
+IPC Message Queue process 1! PID:2406  Queue name :/msg_queue
+IPC Message Queue process 2! PID:2408  Queue name :/msg_queue
+
+[2767]	Process 2 received- Message: sanju LED state: 0
+
+[2767]	Process 1 sending- Message: sanju LED state: 0
+
+[2775]	Process 2 sending- Message:  prakash LED state: 0
+
+[2775]	Process 1 received- Message:  prakash LED state: 0
+
+[2870]	Process 1 sending- Message: sup LED state: 0
+
+[2870]	Process 2 received- Message: sup LED state: 0
+
+[2870]	Process 2 sending- Message: sanju LED state: 0
+
+[2870]	Process 1 received- Message: sanju LED state: 0
+
+[2888]	Process 1 sending- Message: hi LED state: 0
+
+[2888]	Process 2 received- Message: hi LED state: 4
+
+[2888]	Process 2 sending- Message: LEDON LED state: 0
+
+[2888]	Process 1 received- Message: LEDON LED state: 1
+
+[2906]	Process 1 sending- Message: LEDON LED state: 1
+
+[2906]	Process 2 received- Message: LEDON LED state: 1
+
+[2906]	Process 2 sending- Message: LEDOFF LED state: 1
+
+[2906]	Process 1 received- Message: LEDOFF LED state: 0
+
+[2934]	Process 1 sending- Message: process 1 LED state: 0
+
+[2934]	Process 2 received- Message: process 1 LED state: 1
+
+[2934]	Process 2 sending- Message: what's up LED state: 1
+
+[2934]	Process 1 received- Message: what's up LED state: 0
+
+[2939]	 Queue 1 exit!
+[2940]	 Queue 2 exit!

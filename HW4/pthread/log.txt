@@ -1,0 +1,95 @@
+Main thread
+Entered thread2! Thread ID: 140322869053184
+
+Entered Child 1! Thread ID: 140322877445888
+
+Count of j is 26
+Count of q is 4
+Count of x is 84
+Count of z is 12
+Time taken for thread 1 execution = 0.006145 seconds
+
+CPU Utilization = 5.035302 %
+CPU Utilization = 5.035400 %
+CPU Utilization = 5.035483 %
+CPU Utilization = 5.035565 %
+CPU Utilization = 5.035656 %
+CPU Utilization = 5.035746 %
+CPU Utilization = 5.035853 %
+CPU Utilization = 5.035944 %
+CPU Utilization = 5.036042 %
+CPU Utilization = 5.036116 %
+CPU Utilization = 5.036207 %
+CPU Utilization = 5.036338 %
+CPU Utilization = 5.036420 %
+CPU Utilization = 5.036535 %
+CPU Utilization = 5.036634 %
+CPU Utilization = 5.036716 %
+CPU Utilization = 5.036807 %
+CPU Utilization = 5.036905 %
+CPU Utilization = 5.036972 %
+CPU Utilization = 5.037063 %
+CPU Utilization = 5.037153 %
+CPU Utilization = 5.037243 %
+CPU Utilization = 5.037334 %
+CPU Utilization = 5.037416 %
+CPU Utilization = 5.037491 %
+CPU Utilization = 5.037598 %
+CPU Utilization = 5.037688 %
+CPU Utilization = 5.037770 %
+CPU Utilization = 5.037852 %
+CPU Utilization = 5.037959 %
+CPU Utilization = 5.038034 %
+CPU Utilization = 5.038116 %
+CPU Utilization = 5.038206 %
+CPU Utilization = 5.038281 %
+CPU Utilization = 5.038420 %
+CPU Utilization = 5.038503 %
+CPU Utilization = 5.038569 %
+CPU Utilization = 5.038651 %
+CPU Utilization = 5.038742 %
+CPU Utilization = 5.038840 %
+CPU Utilization = 5.038931 %
+CPU Utilization = 5.039013 %
+CPU Utilization = 5.039103 %
+CPU Utilization = 5.039201 %
+CPU Utilization = 5.039292 %
+CPU Utilization = 5.039374 %
+CPU Utilization = 5.039464 %
+CPU Utilization = 5.039539 %
+CPU Utilization = 5.039621 %
+CPU Utilization = 5.039703 %
+CPU Utilization = 5.039793 %
+CPU Utilization = 5.039868 %
+CPU Utilization = 5.039942 %
+CPU Utilization = 5.040041 %
+CPU Utilization = 5.040115 %
+CPU Utilization = 5.040238 %
+CPU Utilization = 5.040328 %
+CPU Utilization = 5.040403 %
+CPU Utilization = 5.040501 %
+CPU Utilization = 5.040584 %
+CPU Utilization = 5.040682 %
+CPU Utilization = 5.040789 %
+CPU Utilization = 5.040879 %
+CPU Utilization = 5.040962 %
+CPU Utilization = 5.041060 %
+CPU Utilization = 5.041135 %
+CPU Utilization = 5.041217 %
+CPU Utilization = 5.041291 %
+CPU Utilization = 5.041374 %
+CPU Utilization = 5.041472 %
+CPU Utilization = 5.041586 %
+CPU Utilization = 5.041670 %
+CPU Utilization = 5.041736 %
+CPU Utilization = 5.041834 %
+CPU Utilization = 5.041925 %
+CPU Utilization = 5.041999 %
+CPU Utilization = 5.042081 %
+CPU Utilization = 5.042164 %
+CPU Utilization = 5.042246 %
+CPU Utilization = 5.042347 %
+CPU Utilization = 5.042437 %
+CPU Utilization = 5.042511 %
+Thread 2 Exit due to USR1 signal
+Time taken for thread 2 execution = 8.410993 seconds

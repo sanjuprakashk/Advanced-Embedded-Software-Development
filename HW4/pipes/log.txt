@@ -1,0 +1,45 @@
+
+IPC Pipe! PID:2377
+[1787]	PID: 2378	Parent Sending: Message: LEDON
+[1787]	PID: 2377	Parent Received: Message: LEDON	LED State: 1
+[1795]	PID: 2377	Child Sending: Message: LEDOFF
+[1795]	PID: 2378	Child Received: Message: LEDOFF	LED State: 0
+[1807]	PID: 2378	Parent Sending: Message: code
+[1807]	PID: 2377	Parent Received: Message: code	LED State: 0
+[1814]	PID: 2377	Child Sending: Message: life
+[1814]	PID: 2378	Child Received: Message: life	LED State: 0
+[1825]	PID: 2378	Parent Sending: Message: APES
+[1825]	PID: 2377	Parent Received: Message: APES	LED State: 0
+[1831]	PID: 2377	Child Sending: Message: PES
+[1831]	PID: 2378	Child Received: Message: PES	LED State: 0
+[1835]	PID: 2378	Parent Sending: Message: How's it going
+[1835]	PID: 2377	Parent Received: Message: How's it going	LED State: 0
+[1841]	PID: 2377	Child Sending: Message: very good
+[1841]	PID: 2378	Child Received: Message: very good	LED State: 0
+[1845]	PID: 2378	Parent Sending: Message: process
+[1845]	PID: 2377	Parent Received: Message: process	LED State: 0
+[1849]	PID: 2377	Child Sending: Message: thread
+[1849]	PID: 2378	Child Received: Message: thread	LED State: 0
+[1853]	PID: 2378	Parent Sending: Message: multi thread
+[1853]	PID: 2377	Parent Received: Message: multi thread	LED State: 0
+[1856]	PID: 2377	Child Sending: Message: gdb
+[1856]	PID: 2378	Child Received: Message: gdb	LED State: 0
+[1860]	PID: 2378	Parent Sending: Message: LEDOFF
+[1860]	PID: 2377	Parent Received: Message: LEDOFF	LED State: 0
+[1864]	PID: 2377	Child Sending: Message: LEDON
+[1864]	PID: 2378	Child Received: Message: LEDON	LED State: 1
+[1867]	PID: 2378	Parent Sending: Message: polar vortex
+[1867]	PID: 2377	Parent Received: Message: polar vortex	LED State: 0
+[1871]	PID: 2377	Child Sending: Message: just random
+[1871]	PID: 2378	Child Received: Message: just random	LED State: 0
+[1877]	PID: 2378	Parent Sending: Message: sanju prakash
+[1877]	PID: 2377	Parent Received: Message: sanju prakash	LED State: 0
+[1881]	PID: 2377	Child Sending: Message: kannioth
+[1881]	PID: 2378	Child Received: Message: kannioth	LED State: 0
+[1885]	PID: 2378	Parent Sending: Message: LEDOFF
+[1885]	PID: 2377	Parent Received: Message: LEDOFF	LED State: 0
+[1889]	PID: 2377	Child Sending: Message: LEDON
+[1889]	PID: 2378	Child Received: Message: LEDON	LED State: 1
+
+[1893]	 Child exit!
+[1893]	 Parent exit!

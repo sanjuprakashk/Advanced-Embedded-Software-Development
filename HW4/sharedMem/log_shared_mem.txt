@@ -1,0 +1,37 @@
+
+Shared memory process 1! PID : 182    Shared memory name :/shared_mem
+Shared memory process 2! PID : 183    Shared memory name :/shared_mem
+[1745]		Process 1 sending: LEDON
+[1745]		Process 2 received: LEDON LED state: 1
+[1750]		Process 2 sending: LEDON
+[1750]		Process 1 received: LEDON LED state: 1
+[1754]		Process 1 sending: ;EDOFF
+[1755]		Process 2 received: ;EDOFF LED state: 1
+[1760]		Process 2 sending: LEDOFF
+[1760]		Process 1 received: LEDOFF LED state: 0
+[1769]		Process 1 sending: Sanju Prakash
+[1770]		Process 2 received: Sanju Prakash LED state: 0
+[1775]		Process 2 sending: Kannioth
+[1775]		Process 1 received: Kannioth LED state: 0
+[1783]		Process 1 sending: How's it going
+[1783]		Process 2 received: How's it going LED state: 0
+[1787]		Process 2 sending: very good
+[1788]		Process 1 received: very good LED state: 0
+[1799]		Process 1 sending: multi thread
+[1799]		Process 2 received: multi thread LED state: 0
+[1803]		Process 2 sending: thread
+[1804]		Process 1 received: thread LED state: 0
+[1806]		Process 1 sending: APES
+[1807]		Process 2 received: APES LED state: 0
+[1810]		Process 2 sending: PES
+[1810]		Process 1 received: PES LED state: 0
+[1820]		Process 1 sending: polar vortex
+[1821]		Process 2 received: polar vortex LED state: 0
+[1828]		Process 2 sending: just random
+[1828]		Process 1 received: just random LED state: 0
+[1833]		Process 1 sending: LEDOFF
+[1834]		Process 2 received: LEDOFF LED state: 0
+[1841]		Process 2 sending: LEDON
+[1841]		Process 1 received: LEDON LED state: 1
+[1842]	 Process2 exit!
+[1844]	 Process1 exit!
