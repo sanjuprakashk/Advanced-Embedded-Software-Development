@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structtemperature__struct" kind="struct" language="C++" prot="public">
+    <compoundname>temperature_struct</compoundname>
+    <includes refid="i2c__task_8h" local="no">i2c_task.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structtemperature__struct_1ae24c4d0933e7b6558f90af91715b736a" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char temp[35]</definition>
+        <argsstring>[35]</argsstring>
+        <name>temp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="inc/i2c_task.h" line="38" column="1" bodyfile="inc/i2c_task.h" bodystart="38" bodyend="-1"/>
+        <referencedby refid="i2c__task_8c_1a6c1c15219c8f3fadb64d38a41254cb35" compoundref="i2c__task_8c" startline="76" endline="113">tmp102Task</referencedby>
+        <referencedby refid="logger__task_8c_1a602e068119bc12b4f0055559d9770f87" compoundref="logger__task_8c" startline="11" endline="28">loggerTask</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="inc/i2c_task.h" line="37" column="1" bodyfile="inc/i2c_task.h" bodystart="36" bodyend="39"/>
+    <listofallmembers>
+      <member refid="structtemperature__struct_1ae24c4d0933e7b6558f90af91715b736a" prot="public" virt="non-virtual"><scope>temperature_struct</scope><name>temp</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
