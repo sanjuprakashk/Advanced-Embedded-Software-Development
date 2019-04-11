@@ -1,3 +1,10 @@
+/**
+ * @\file   led_task.c
+ * @\author Sanju Prakash Kannioth
+ * @\brief  This files contains the function definitions for the led module
+ * @\date   04/10/2019
+ *
+ */
 #include "inc/led_task.h"
 
 extern SemaphoreHandle_t xSemaphore;

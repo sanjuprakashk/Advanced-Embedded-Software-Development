@@ -1,3 +1,10 @@
+/**
+ * @\file   alert_task.c
+ * @\author Sanju Prakash Kannioth
+ * @\brief  This files contains the function definitions for the alert module
+ * @\date   04/10/2019
+ *
+ */
 #include "inc/alert_task.h"
 
 extern SemaphoreHandle_t xSemaphore;

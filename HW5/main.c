@@ -3,7 +3,8 @@
  *
  * references: https://energia.nu/pinmaps/ek-tm4c1294xl/,
  *             https://github.com/rheidebr/ECEN5013-LUX_Temp_demo,
- *             https://github.com/akobyl/TM4C129_FreeRTOS_Demo
+ *             https://github.com/akobyl/TM4C129_FreeRTOS_Demo,
+ *             https://www.freertos.org/a00106.html
  *
  */
 

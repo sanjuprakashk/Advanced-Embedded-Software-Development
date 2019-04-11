@@ -1,3 +1,10 @@
+/**
+ * @\file   i2c_task.c
+ * @\author Sanju Prakash Kannioth
+ * @\brief  This files contains the function definitions for i2c temperature sensor module
+ * @\date   04/10/2019
+ *
+ */
 #include "inc/i2c_task.h"
 
 extern TaskHandle_t alert_task_handle;
@@ -29,7 +36,7 @@ void i2c_init()
 
 }
 
-uint8_t I2CGet2Bytes(uint8_t target_addr, uint8_t register_addr, uint16_t* data)
+uint8_t I2CGet2Bytes(uint8_t target_addr, uint8_t register_addr, int16_t* data)
 {
     uint8_t higherByte, lowerByte;
     I2CMasterSlaveAddrSet(I2C2_BASE, target_addr, false);
@@ -71,16 +78,25 @@ void tmp102Task(void *pvParameters)
     temperature_task_struct.data.temp = &temperature_struct;
     while(1)
     {
-        uint16_t temp;
+        int16_t temp;
         I2CGet2Bytes(TEMP_ADDR, 0x00, &temp);
 
-
+        if(temp & 0x800)
+        {
+            temp = (~(temp) + 1) & 0xFFF;
+            temp = -1 * temp;
+        }
         float temperature;
         temperature = temp * 0.0625;
 
-        uint32_t temp_uint = (uint32_t)(10000.0 * temperature);
+        int32_t temp_int = (int32_t)(10000.0 * temperature);
 
         if(temperature > 27)
+        {
+            xTaskNotify(alert_task_handle, 0, eNoAction);
+        }
+
+        if(temperature < 0)
         {
             xTaskNotify(alert_task_handle, 0, eNoAction);
         }
@@ -88,7 +104,7 @@ void tmp102Task(void *pvParameters)
         xSemaphoreTake(xSemaphore, 0);
         strcpy(temperature_task_struct.task_name,"TEMP");
         temperature_task_struct.ulTimeStamp = xTaskGetTickCount();
-        sprintf(temperature_task_struct.data.temp->temp,"Temperature = %d.%d\n",(uint32_t)temp_uint/10000, (uint32_t)temp_uint%10000);
+        sprintf(temperature_task_struct.data.temp->temp,"Temperature = %d.%d\n",(int32_t)temp_int/10000, (int32_t)temp_int%10000);
         xQueueSendToBack(queueHandle,( void * ) &temperature_task_struct, 10) ;
         xSemaphoreGive(xSemaphore);
         vTaskDelay(1000 / portTICK_PERIOD_MS);

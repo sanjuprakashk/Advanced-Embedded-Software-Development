@@ -1,3 +1,10 @@
+/**
+ * @\file   logger_task.c
+ * @\author Sanju Prakash Kannioth
+ * @\brief  This files contains the function definitions for the logger module
+ * @\date   04/10/2019
+ *
+ */
 #include "inc/logger_task.h"
 
 
