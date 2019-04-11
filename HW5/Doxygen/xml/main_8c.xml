@@ -1,0 +1,488 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="main_8c" kind="file" language="C++">
+    <compoundname>main.c</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdint.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">string.h</includes>
+    <includes refid="main_8h" local="yes">main.h</includes>
+    <includes local="yes">drivers/pinout.h</includes>
+    <includes local="yes">utils/uartstdio.h</includes>
+    <includes local="no">stdarg.h</includes>
+    <includes local="yes">driverlib/sysctl.h</includes>
+    <includes local="yes">driverlib/debug.h</includes>
+    <includes local="yes">driverlib/rom.h</includes>
+    <includes local="yes">driverlib/rom_map.h</includes>
+    <includes local="yes">driverlib/pin_map.h</includes>
+    <includes local="yes">driverlib/gpio.h</includes>
+    <includes local="yes">driverlib/inc/hw_memmap.h</includes>
+    <includes local="yes">FreeRTOSConfig.h</includes>
+    <includes local="yes">FreeRTOS.h</includes>
+    <includes local="yes">task.h</includes>
+    <includes local="yes">queue.h</includes>
+    <includes local="yes">timers.h</includes>
+    <includes local="yes">semphr.h</includes>
+    <includes refid="i2c__task_8h" local="yes">inc/i2c_task.h</includes>
+    <includes refid="logger__task_8h" local="yes">inc/logger_task.h</includes>
+    <includes refid="led__task_8h" local="yes">inc/led_task.h</includes>
+    <includes refid="alert__task_8h" local="yes">inc/alert_task.h</includes>
+    <includes refid="timer__callback_8h" local="yes">inc/timer_callback.h</includes>
+    <incdepgraph>
+      <node id="139">
+        <label>stdbool.h</label>
+      </node>
+      <node id="160">
+        <label>inc/logger_task.h</label>
+        <link refid="logger__task_8h"/>
+        <childnode refid="137" relation="include">
+        </childnode>
+        <childnode refid="138" relation="include">
+        </childnode>
+        <childnode refid="139" relation="include">
+        </childnode>
+        <childnode refid="140" relation="include">
+        </childnode>
+        <childnode refid="143" relation="include">
+        </childnode>
+        <childnode refid="153" relation="include">
+        </childnode>
+        <childnode refid="155" relation="include">
+        </childnode>
+        <childnode refid="161" relation="include">
+        </childnode>
+        <childnode refid="158" relation="include">
+        </childnode>
+        <childnode refid="163" relation="include">
+        </childnode>
+      </node>
+      <node id="144">
+        <label>stdarg.h</label>
+      </node>
+      <node id="151">
+        <label>driverlib/inc/hw_memmap.h</label>
+      </node>
+      <node id="162">
+        <label>inc/timer_callback.h</label>
+        <link refid="timer__callback_8h"/>
+        <childnode refid="137" relation="include">
+        </childnode>
+        <childnode refid="138" relation="include">
+        </childnode>
+        <childnode refid="153" relation="include">
+        </childnode>
+        <childnode refid="156" relation="include">
+        </childnode>
+      </node>
+      <node id="145">
+        <label>driverlib/sysctl.h</label>
+      </node>
+      <node id="155">
+        <label>queue.h</label>
+      </node>
+      <node id="138">
+        <label>stdint.h</label>
+      </node>
+      <node id="147">
+        <label>driverlib/rom.h</label>
+      </node>
+      <node id="163">
+        <label>inc/alert_task.h</label>
+        <link refid="alert__task_8h"/>
+        <childnode refid="137" relation="include">
+        </childnode>
+        <childnode refid="138" relation="include">
+        </childnode>
+        <childnode refid="139" relation="include">
+        </childnode>
+        <childnode refid="140" relation="include">
+        </childnode>
+        <childnode refid="153" relation="include">
+        </childnode>
+        <childnode refid="154" relation="include">
+        </childnode>
+        <childnode refid="155" relation="include">
+        </childnode>
+        <childnode refid="157" relation="include">
+        </childnode>
+        <childnode refid="160" relation="include">
+        </childnode>
+      </node>
+      <node id="136">
+        <label>main.c</label>
+        <link refid="main_8c"/>
+        <childnode refid="137" relation="include">
+        </childnode>
+        <childnode refid="138" relation="include">
+        </childnode>
+        <childnode refid="139" relation="include">
+        </childnode>
+        <childnode refid="140" relation="include">
+        </childnode>
+        <childnode refid="141" relation="include">
+        </childnode>
+        <childnode refid="142" relation="include">
+        </childnode>
+        <childnode refid="143" relation="include">
+        </childnode>
+        <childnode refid="144" relation="include">
+        </childnode>
+        <childnode refid="145" relation="include">
+        </childnode>
+        <childnode refid="146" relation="include">
+        </childnode>
+        <childnode refid="147" relation="include">
+        </childnode>
+        <childnode refid="148" relation="include">
+        </childnode>
+        <childnode refid="149" relation="include">
+        </childnode>
+        <childnode refid="150" relation="include">
+        </childnode>
+        <childnode refid="151" relation="include">
+        </childnode>
+        <childnode refid="152" relation="include">
+        </childnode>
+        <childnode refid="153" relation="include">
+        </childnode>
+        <childnode refid="154" relation="include">
+        </childnode>
+        <childnode refid="155" relation="include">
+        </childnode>
+        <childnode refid="156" relation="include">
+        </childnode>
+        <childnode refid="157" relation="include">
+        </childnode>
+        <childnode refid="158" relation="include">
+        </childnode>
+        <childnode refid="160" relation="include">
+        </childnode>
+        <childnode refid="161" relation="include">
+        </childnode>
+        <childnode refid="163" relation="include">
+        </childnode>
+        <childnode refid="162" relation="include">
+        </childnode>
+      </node>
+      <node id="149">
+        <label>driverlib/pin_map.h</label>
+      </node>
+      <node id="141">
+        <label>main.h</label>
+        <link refid="main_8h"/>
+      </node>
+      <node id="140">
+        <label>string.h</label>
+      </node>
+      <node id="157">
+        <label>semphr.h</label>
+      </node>
+      <node id="146">
+        <label>driverlib/debug.h</label>
+      </node>
+      <node id="150">
+        <label>driverlib/gpio.h</label>
+      </node>
+      <node id="142">
+        <label>drivers/pinout.h</label>
+      </node>
+      <node id="159">
+        <label>driverlib/i2c.h</label>
+      </node>
+      <node id="156">
+        <label>timers.h</label>
+      </node>
+      <node id="158">
+        <label>inc/i2c_task.h</label>
+        <link refid="i2c__task_8h"/>
+        <childnode refid="137" relation="include">
+        </childnode>
+        <childnode refid="138" relation="include">
+        </childnode>
+        <childnode refid="139" relation="include">
+        </childnode>
+        <childnode refid="140" relation="include">
+        </childnode>
+        <childnode refid="159" relation="include">
+        </childnode>
+        <childnode refid="151" relation="include">
+        </childnode>
+        <childnode refid="149" relation="include">
+        </childnode>
+        <childnode refid="145" relation="include">
+        </childnode>
+        <childnode refid="150" relation="include">
+        </childnode>
+        <childnode refid="153" relation="include">
+        </childnode>
+        <childnode refid="154" relation="include">
+        </childnode>
+        <childnode refid="155" relation="include">
+        </childnode>
+        <childnode refid="157" relation="include">
+        </childnode>
+        <childnode refid="160" relation="include">
+        </childnode>
+      </node>
+      <node id="152">
+        <label>FreeRTOSConfig.h</label>
+      </node>
+      <node id="148">
+        <label>driverlib/rom_map.h</label>
+      </node>
+      <node id="161">
+        <label>inc/led_task.h</label>
+        <link refid="led__task_8h"/>
+        <childnode refid="137" relation="include">
+        </childnode>
+        <childnode refid="138" relation="include">
+        </childnode>
+        <childnode refid="139" relation="include">
+        </childnode>
+        <childnode refid="140" relation="include">
+        </childnode>
+        <childnode refid="159" relation="include">
+        </childnode>
+        <childnode refid="151" relation="include">
+        </childnode>
+        <childnode refid="149" relation="include">
+        </childnode>
+        <childnode refid="145" relation="include">
+        </childnode>
+        <childnode refid="150" relation="include">
+        </childnode>
+        <childnode refid="142" relation="include">
+        </childnode>
+        <childnode refid="153" relation="include">
+        </childnode>
+        <childnode refid="154" relation="include">
+        </childnode>
+        <childnode refid="155" relation="include">
+        </childnode>
+        <childnode refid="157" relation="include">
+        </childnode>
+        <childnode refid="156" relation="include">
+        </childnode>
+        <childnode refid="160" relation="include">
+        </childnode>
+        <childnode refid="162" relation="include">
+        </childnode>
+      </node>
+      <node id="143">
+        <label>utils/uartstdio.h</label>
+      </node>
+      <node id="137">
+        <label>stdio.h</label>
+      </node>
+      <node id="153">
+        <label>FreeRTOS.h</label>
+      </node>
+      <node id="154">
+        <label>task.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="main_8c_1a78c3f812b421245a382942712ad28694" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t output_clock_rate_hz</definition>
+        <argsstring></argsstring>
+        <name>output_clock_rate_hz</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="main.c" line="46" column="1" bodyfile="main.c" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="main_8c_1a0639b448c4862618f597670523ef9975" prot="public" static="no" mutable="no">
+        <type>SemaphoreHandle_t</type>
+        <definition>SemaphoreHandle_t xSemaphore</definition>
+        <argsstring></argsstring>
+        <name>xSemaphore</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>\file <ref refid="alert__task_8c" kindref="compound">alert_task.c</ref> \author Sanju Prakash Kannioth \brief This files contains the function definitions for the alert module \date 04/10/2019 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="main.c" line="48" column="1" bodyfile="main.c" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="main_8c_1a568e88033187e800945d602047df01f4" prot="public" static="no" mutable="no">
+        <type>TaskHandle_t</type>
+        <definition>TaskHandle_t alert_task_handle</definition>
+        <argsstring></argsstring>
+        <name>alert_task_handle</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>\file <ref refid="i2c__task_8c" kindref="compound">i2c_task.c</ref> \author Sanju Prakash Kannioth \brief This files contains the function definitions for i2c temperature sensor module \date 04/10/2019 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="main.c" line="50" column="1" bodyfile="main.c" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="main_8c_1a840291bc02cba5474a4cb46a9b9566fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int main</definition>
+        <argsstring>(void)</argsstring>
+        <name>main</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="main.c" line="53" column="1" bodyfile="main.c" bodystart="53" bodyend="89"/>
+        <references refid="main_8c_1a78c3f812b421245a382942712ad28694" compoundref="main_8c" startline="46">output_clock_rate_hz</references>
+        <references refid="main_8h_1a95982eccb57c2ae35f8ba3d8f0b05653" compoundref="main_8h" startline="12">SYSTEM_CLOCK</references>
+        <references refid="i2c__task_8h_1a64303230bf4843297e7ac37ac236ca04" compoundref="i2c__task_8c" startline="17" endline="37">i2c_init</references>
+        <references refid="logger__task_8h_1a27bfb5ed11da21b301ec5bbce6cba85b" compoundref="logger__task_8h" startline="31">queueHandle</references>
+        <references refid="logger__task_8h_1a6af96363cbe21070ae6432f0187d97fb" compoundref="logger__task_8h" startline="29">Q_LENGTH</references>
+        <references refid="main_8c_1a0639b448c4862618f597670523ef9975" compoundref="main_8c" startline="48">xSemaphore</references>
+        <references refid="led__task_8h_1a09ad99fa7d6601fbf66cdf9ee1c1b454" compoundref="led__task_8c" startline="15" endline="55">ledToggleTask</references>
+        <references refid="alert__task_8h_1aa8ed6c7d06199362625b236b9ced267a" compoundref="alert__task_8c" startline="14" endline="31">alertTask</references>
+        <references refid="main_8c_1a568e88033187e800945d602047df01f4" compoundref="main_8c" startline="50">alert_task_handle</references>
+        <references refid="i2c__task_8h_1a6c1c15219c8f3fadb64d38a41254cb35" compoundref="i2c__task_8c" startline="76" endline="113">tmp102Task</references>
+        <references refid="logger__task_8h_1a602e068119bc12b4f0055559d9770f87" compoundref="logger__task_8c" startline="11" endline="28">loggerTask</references>
+      </memberdef>
+      <memberdef kind="function" id="main_8c_1a9cbff4035d547129f9c7c07129d2fa01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void __error__</definition>
+        <argsstring>(char *pcFilename, uint32_t ui32Line)</argsstring>
+        <name>__error__</name>
+        <param>
+          <type>char *</type>
+          <declname>pcFilename</declname>
+        </param>
+        <param>
+          <type>uint32_t</type>
+          <declname>ui32Line</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="main.c" line="95" column="1" bodyfile="main.c" bodystart="95" bodyend="101"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Author:<sp/>Sanju<sp/>Prakash<sp/>Kannioth</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*<sp/>references:<sp/>https://energia.nu/pinmaps/ek-tm4c1294xl/,</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>https://github.com/rheidebr/ECEN5013-LUX_Temp_demo,</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>https://github.com/akobyl/TM4C129_FreeRTOS_Demo,</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>https://www.freertos.org/a00106.html</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="main_8h" kindref="compound">main.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;drivers/pinout.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;utils/uartstdio.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/>TivaWare<sp/>includes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;driverlib/sysctl.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;driverlib/debug.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;driverlib/rom.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;driverlib/rom_map.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;driverlib/sysctl.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;driverlib/pin_map.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;driverlib/gpio.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;driverlib/inc/hw_memmap.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">//<sp/>FreeRTOS<sp/>includes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;FreeRTOSConfig.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;FreeRTOS.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;task.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;queue.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;timers.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;semphr.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight><highlight class="comment">//User<sp/>defined<sp/>includes</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="i2c__task_8h" kindref="compound">inc/i2c_task.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="logger__task_8h" kindref="compound">inc/logger_task.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="led__task_8h" kindref="compound">inc/led_task.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="alert__task_8h" kindref="compound">inc/alert_task.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="timer__callback_8h" kindref="compound">inc/timer_callback.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46" refid="i2c__task_8c_1a78c3f812b421245a382942712ad28694" refkind="member"><highlight class="normal">uint32_t<sp/><ref refid="main_8c_1a78c3f812b421245a382942712ad28694" kindref="member">output_clock_rate_hz</ref>;</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="led__task_8c_1a0639b448c4862618f597670523ef9975" refkind="member"><highlight class="normal">SemaphoreHandle_t<sp/><ref refid="main_8c_1a0639b448c4862618f597670523ef9975" kindref="member">xSemaphore</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50" refid="i2c__task_8c_1a568e88033187e800945d602047df01f4" refkind="member"><highlight class="normal">TaskHandle_t<sp/><ref refid="main_8c_1a568e88033187e800945d602047df01f4" kindref="member">alert_task_handle</ref><sp/>=<sp/>NULL;</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Main<sp/>function</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53" refid="main_8c_1a840291bc02cba5474a4cb46a9b9566fe" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><ref refid="main_8c_1a840291bc02cba5474a4cb46a9b9566fe" kindref="member">main</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal">)</highlight></codeline>
+<codeline lineno="54"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Initialize<sp/>system<sp/>clock<sp/>to<sp/>120<sp/>MHz</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="main_8c_1a78c3f812b421245a382942712ad28694" kindref="member">output_clock_rate_hz</ref><sp/>=<sp/>SysCtlClockFreqSet(</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(SYSCTL_XTAL_25MHZ<sp/>|<sp/>SYSCTL_OSC_MAIN<sp/>|</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>SYSCTL_USE_PLL<sp/>|<sp/>SYSCTL_CFG_VCO_480),</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="main_8h_1a95982eccb57c2ae35f8ba3d8f0b05653" kindref="member">SYSTEM_CLOCK</ref>);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>ASSERT(<ref refid="main_8c_1a78c3f812b421245a382942712ad28694" kindref="member">output_clock_rate_hz</ref><sp/>==<sp/><ref refid="main_8h_1a95982eccb57c2ae35f8ba3d8f0b05653" kindref="member">SYSTEM_CLOCK</ref>);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>UARTStdioConfig(0,<sp/>115200,<sp/><ref refid="main_8h_1a95982eccb57c2ae35f8ba3d8f0b05653" kindref="member">SYSTEM_CLOCK</ref>);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Initialize<sp/>the<sp/>GPIO<sp/>pins<sp/>for<sp/>the<sp/>Launchpad</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>PinoutSet(</highlight><highlight class="keyword">false</highlight><highlight class="normal">,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="i2c__task_8h_1a64303230bf4843297e7ac37ac236ca04" kindref="member">i2c_init</ref>();</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="logger__task_8h_1a27bfb5ed11da21b301ec5bbce6cba85b" kindref="member">queueHandle</ref><sp/>=<sp/>xQueueCreate(<ref refid="logger__task_8h_1a6af96363cbe21070ae6432f0187d97fb" kindref="member">Q_LENGTH</ref>,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(<ref refid="structlogger__struct" kindref="compound">logger_struct</ref>));</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="main_8c_1a0639b448c4862618f597670523ef9975" kindref="member">xSemaphore</ref><sp/>=<sp/>xSemaphoreCreateMutex();</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/>xTaskCreate(<ref refid="led__task_8h_1a09ad99fa7d6601fbf66cdf9ee1c1b454" kindref="member">ledToggleTask</ref>,<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>portCHAR<sp/>*)</highlight><highlight class="stringliteral">&quot;LEDs&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>configMINIMAL_STACK_SIZE,<sp/>NULL,<sp/>1,<sp/>NULL);</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"></highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/>xTaskCreate(<ref refid="alert__task_8h_1aa8ed6c7d06199362625b236b9ced267a" kindref="member">alertTask</ref>,<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>portCHAR<sp/>*)</highlight><highlight class="stringliteral">&quot;Alert&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>configMINIMAL_STACK_SIZE,<sp/>NULL,<sp/>1,<sp/>&amp;<ref refid="main_8c_1a568e88033187e800945d602047df01f4" kindref="member">alert_task_handle</ref>);</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"></highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>xTaskCreate(<ref refid="i2c__task_8h_1a6c1c15219c8f3fadb64d38a41254cb35" kindref="member">tmp102Task</ref>,<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>portCHAR<sp/>*)</highlight><highlight class="stringliteral">&quot;Temperature&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>configMINIMAL_STACK_SIZE,<sp/>NULL,<sp/>1,<sp/>NULL);</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"><sp/><sp/><sp/><sp/>xTaskCreate(<ref refid="logger__task_8h_1a602e068119bc12b4f0055559d9770f87" kindref="member">loggerTask</ref>,<sp/>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/>portCHAR<sp/>*)</highlight><highlight class="stringliteral">&quot;Logger&quot;</highlight><highlight class="normal">,</highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>configMINIMAL_STACK_SIZE,<sp/>NULL,<sp/>1,<sp/>NULL);</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"></highlight></codeline>
+<codeline lineno="86"><highlight class="normal"></highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/>vTaskStartScheduler();</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="89"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight><highlight class="comment">/*<sp/><sp/>ASSERT()<sp/>Error<sp/>function</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/>*<sp/><sp/>failed<sp/>ASSERTS()<sp/>from<sp/>driverlib/debug.h<sp/>are<sp/>executed<sp/>in<sp/>this<sp/>function</highlight></codeline>
+<codeline lineno="94"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95" refid="main_8c_1a9cbff4035d547129f9c7c07129d2fa01" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="main_8c_1a9cbff4035d547129f9c7c07129d2fa01" kindref="member">__error__</ref>(</highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*pcFilename,<sp/>uint32_t<sp/>ui32Line)</highlight></codeline>
+<codeline lineno="96"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Place<sp/>a<sp/>breakpoint<sp/>here<sp/>to<sp/>capture<sp/>errors<sp/>until<sp/>logging<sp/>routine<sp/>is<sp/>finished</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="98"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal"><sp/>(1)</highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="101"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="main.c"/>
+  </compounddef>
+</doxygen>

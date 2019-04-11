@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="timer__callback_8c" kind="file" language="C++">
+    <compoundname>timer_callback.c</compoundname>
+    <includes refid="timer__callback_8h" local="yes">inc/timer_callback.h</includes>
+    <incdepgraph>
+      <node id="261">
+        <label>inc/timer_callback.h</label>
+        <link refid="timer__callback_8h"/>
+        <childnode refid="262" relation="include">
+        </childnode>
+        <childnode refid="263" relation="include">
+        </childnode>
+        <childnode refid="264" relation="include">
+        </childnode>
+        <childnode refid="265" relation="include">
+        </childnode>
+      </node>
+      <node id="263">
+        <label>stdint.h</label>
+      </node>
+      <node id="260">
+        <label>src/timer_callback.c</label>
+        <link refid="timer__callback_8c"/>
+        <childnode refid="261" relation="include">
+        </childnode>
+      </node>
+      <node id="265">
+        <label>timers.h</label>
+      </node>
+      <node id="262">
+        <label>stdio.h</label>
+      </node>
+      <node id="264">
+        <label>FreeRTOS.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="timer__callback_8c_1a060e8052d305ed10611385341f4422db" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>volatile uint8_t toggleFlag</definition>
+        <argsstring></argsstring>
+        <name>toggleFlag</name>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>\file <ref refid="timer__callback_8c" kindref="compound">timer_callback.c</ref> \author Sanju Prakash Kannioth \brief This files contains the function definitions for the timer module \date 04/10/2019 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/timer_callback.c" line="10" column="1" bodyfile="src/timer_callback.c" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="timer__callback_8c_1ae4caa6d350ad7f8ca97dcc0cd56885f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void vTimerCallback</definition>
+        <argsstring>(TimerHandle_t *pxTimer)</argsstring>
+        <name>vTimerCallback</name>
+        <param>
+          <type>TimerHandle_t *</type>
+          <declname>pxTimer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>\file <ref refid="timer__callback_8h" kindref="compound">timer_callback.h</ref> \author Sanju Prakash Kannioth \brief This files contains the declarations and header files for the timer module \date 04/10/2019 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/timer_callback.c" line="12" column="1" bodyfile="src/timer_callback.c" bodystart="12" bodyend="15"/>
+        <references refid="timer__callback_8c_1a060e8052d305ed10611385341f4422db" compoundref="timer__callback_8c" startline="10">toggleFlag</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="8"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="timer__callback_8h" kindref="compound">inc/timer_callback.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10" refid="timer__callback_8c_1a060e8052d305ed10611385341f4422db" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/>uint8_t<sp/><ref refid="timer__callback_8c_1a060e8052d305ed10611385341f4422db" kindref="member">toggleFlag</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="timer__callback_8c_1ae4caa6d350ad7f8ca97dcc0cd56885f9" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="timer__callback_8c_1ae4caa6d350ad7f8ca97dcc0cd56885f9" kindref="member">vTimerCallback</ref>(TimerHandle_t<sp/><sp/>*pxTimer)</highlight></codeline>
+<codeline lineno="13"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="timer__callback_8c_1a060e8052d305ed10611385341f4422db" kindref="member">toggleFlag</ref><sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/timer_callback.c"/>
+  </compounddef>
+</doxygen>

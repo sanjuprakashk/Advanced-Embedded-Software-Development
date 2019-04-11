@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="structled__struct" kind="struct" language="C++" prot="public">
+    <compoundname>led_struct</compoundname>
+    <includes refid="led__task_8h" local="no">led_task.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structled__struct_1a832adba5e0a1bb54be2437a3c8f73df2" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char toggle_count[50]</definition>
+        <argsstring>[50]</argsstring>
+        <name>toggle_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="inc/led_task.h" line="39" column="1" bodyfile="inc/led_task.h" bodystart="39" bodyend="-1"/>
+        <referencedby refid="led__task_8c_1a09ad99fa7d6601fbf66cdf9ee1c1b454" compoundref="led__task_8c" startline="15" endline="55">ledToggleTask</referencedby>
+        <referencedby refid="logger__task_8c_1a602e068119bc12b4f0055559d9770f87" compoundref="logger__task_8c" startline="11" endline="28">loggerTask</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="structled__struct_1ae5cb967283dbbdf75cb2032c1fa08fee" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char name[50]</definition>
+        <argsstring>[50]</argsstring>
+        <name>name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="inc/led_task.h" line="40" column="1" bodyfile="inc/led_task.h" bodystart="40" bodyend="-1"/>
+        <referencedby refid="led__task_8c_1a09ad99fa7d6601fbf66cdf9ee1c1b454" compoundref="led__task_8c" startline="15" endline="55">ledToggleTask</referencedby>
+        <referencedby refid="logger__task_8c_1a602e068119bc12b4f0055559d9770f87" compoundref="logger__task_8c" startline="11" endline="28">loggerTask</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>\file <ref refid="led__task_8h" kindref="compound">led_task.h</ref> \author Sanju Prakash Kannioth \brief This files contains the declarations and header files for the led module \date 04/10/2019 </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="8">
+        <label>led_struct</label>
+        <link refid="structled__struct"/>
+      </node>
+    </collaborationgraph>
+    <location file="inc/led_task.h" line="38" column="1" bodyfile="inc/led_task.h" bodystart="37" bodyend="41"/>
+    <listofallmembers>
+      <member refid="structled__struct_1ae5cb967283dbbdf75cb2032c1fa08fee" prot="public" virt="non-virtual"><scope>led_struct</scope><name>name</name></member>
+      <member refid="structled__struct_1a832adba5e0a1bb54be2437a3c8f73df2" prot="public" virt="non-virtual"><scope>led_struct</scope><name>toggle_count</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

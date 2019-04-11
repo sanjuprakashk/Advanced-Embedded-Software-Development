@@ -1,0 +1,433 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="i2c__task_8c" kind="file" language="C++">
+    <compoundname>i2c_task.c</compoundname>
+    <includes refid="i2c__task_8h" local="yes">inc/i2c_task.h</includes>
+    <incdepgraph>
+      <node id="195">
+        <label>stdbool.h</label>
+      </node>
+      <node id="206">
+        <label>inc/logger_task.h</label>
+        <link refid="logger__task_8h"/>
+        <childnode refid="193" relation="include">
+        </childnode>
+        <childnode refid="194" relation="include">
+        </childnode>
+        <childnode refid="195" relation="include">
+        </childnode>
+        <childnode refid="196" relation="include">
+        </childnode>
+        <childnode refid="207" relation="include">
+        </childnode>
+        <childnode refid="202" relation="include">
+        </childnode>
+        <childnode refid="204" relation="include">
+        </childnode>
+        <childnode refid="208" relation="include">
+        </childnode>
+        <childnode refid="192" relation="include">
+        </childnode>
+        <childnode refid="212" relation="include">
+        </childnode>
+      </node>
+      <node id="198">
+        <label>driverlib/inc/hw_memmap.h</label>
+      </node>
+      <node id="211">
+        <label>inc/timer_callback.h</label>
+        <link refid="timer__callback_8h"/>
+        <childnode refid="193" relation="include">
+        </childnode>
+        <childnode refid="194" relation="include">
+        </childnode>
+        <childnode refid="202" relation="include">
+        </childnode>
+        <childnode refid="210" relation="include">
+        </childnode>
+      </node>
+      <node id="200">
+        <label>driverlib/sysctl.h</label>
+      </node>
+      <node id="204">
+        <label>queue.h</label>
+      </node>
+      <node id="194">
+        <label>stdint.h</label>
+      </node>
+      <node id="212">
+        <label>inc/alert_task.h</label>
+        <link refid="alert__task_8h"/>
+        <childnode refid="193" relation="include">
+        </childnode>
+        <childnode refid="194" relation="include">
+        </childnode>
+        <childnode refid="195" relation="include">
+        </childnode>
+        <childnode refid="196" relation="include">
+        </childnode>
+        <childnode refid="202" relation="include">
+        </childnode>
+        <childnode refid="203" relation="include">
+        </childnode>
+        <childnode refid="204" relation="include">
+        </childnode>
+        <childnode refid="205" relation="include">
+        </childnode>
+        <childnode refid="206" relation="include">
+        </childnode>
+      </node>
+      <node id="199">
+        <label>driverlib/pin_map.h</label>
+      </node>
+      <node id="196">
+        <label>string.h</label>
+      </node>
+      <node id="205">
+        <label>semphr.h</label>
+      </node>
+      <node id="201">
+        <label>driverlib/gpio.h</label>
+      </node>
+      <node id="209">
+        <label>drivers/pinout.h</label>
+      </node>
+      <node id="197">
+        <label>driverlib/i2c.h</label>
+      </node>
+      <node id="210">
+        <label>timers.h</label>
+      </node>
+      <node id="192">
+        <label>inc/i2c_task.h</label>
+        <link refid="i2c__task_8h"/>
+        <childnode refid="193" relation="include">
+        </childnode>
+        <childnode refid="194" relation="include">
+        </childnode>
+        <childnode refid="195" relation="include">
+        </childnode>
+        <childnode refid="196" relation="include">
+        </childnode>
+        <childnode refid="197" relation="include">
+        </childnode>
+        <childnode refid="198" relation="include">
+        </childnode>
+        <childnode refid="199" relation="include">
+        </childnode>
+        <childnode refid="200" relation="include">
+        </childnode>
+        <childnode refid="201" relation="include">
+        </childnode>
+        <childnode refid="202" relation="include">
+        </childnode>
+        <childnode refid="203" relation="include">
+        </childnode>
+        <childnode refid="204" relation="include">
+        </childnode>
+        <childnode refid="205" relation="include">
+        </childnode>
+        <childnode refid="206" relation="include">
+        </childnode>
+      </node>
+      <node id="191">
+        <label>src/i2c_task.c</label>
+        <link refid="i2c__task_8c"/>
+        <childnode refid="192" relation="include">
+        </childnode>
+      </node>
+      <node id="208">
+        <label>inc/led_task.h</label>
+        <link refid="led__task_8h"/>
+        <childnode refid="193" relation="include">
+        </childnode>
+        <childnode refid="194" relation="include">
+        </childnode>
+        <childnode refid="195" relation="include">
+        </childnode>
+        <childnode refid="196" relation="include">
+        </childnode>
+        <childnode refid="197" relation="include">
+        </childnode>
+        <childnode refid="198" relation="include">
+        </childnode>
+        <childnode refid="199" relation="include">
+        </childnode>
+        <childnode refid="200" relation="include">
+        </childnode>
+        <childnode refid="201" relation="include">
+        </childnode>
+        <childnode refid="209" relation="include">
+        </childnode>
+        <childnode refid="202" relation="include">
+        </childnode>
+        <childnode refid="203" relation="include">
+        </childnode>
+        <childnode refid="204" relation="include">
+        </childnode>
+        <childnode refid="205" relation="include">
+        </childnode>
+        <childnode refid="210" relation="include">
+        </childnode>
+        <childnode refid="206" relation="include">
+        </childnode>
+        <childnode refid="211" relation="include">
+        </childnode>
+      </node>
+      <node id="207">
+        <label>utils/uartstdio.h</label>
+      </node>
+      <node id="193">
+        <label>stdio.h</label>
+      </node>
+      <node id="202">
+        <label>FreeRTOS.h</label>
+      </node>
+      <node id="203">
+        <label>task.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="i2c__task_8c_1a568e88033187e800945d602047df01f4" prot="public" static="no" mutable="no">
+        <type>TaskHandle_t</type>
+        <definition>TaskHandle_t alert_task_handle</definition>
+        <argsstring></argsstring>
+        <name>alert_task_handle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>\file <ref refid="i2c__task_8c" kindref="compound">i2c_task.c</ref> \author Sanju Prakash Kannioth \brief This files contains the function definitions for i2c temperature sensor module \date 04/10/2019 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/i2c_task.c" line="10" column="1" bodyfile="main.c" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="i2c__task_8c_1a0639b448c4862618f597670523ef9975" prot="public" static="no" mutable="no">
+        <type>SemaphoreHandle_t</type>
+        <definition>SemaphoreHandle_t xSemaphore</definition>
+        <argsstring></argsstring>
+        <name>xSemaphore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>\file <ref refid="alert__task_8c" kindref="compound">alert_task.c</ref> \author Sanju Prakash Kannioth \brief This files contains the function definitions for the alert module \date 04/10/2019 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/i2c_task.c" line="11" column="1" bodyfile="main.c" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="i2c__task_8c_1a78c3f812b421245a382942712ad28694" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t output_clock_rate_hz</definition>
+        <argsstring></argsstring>
+        <name>output_clock_rate_hz</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/i2c_task.c" line="12" column="1" bodyfile="main.c" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="i2c__task_8c_1ae3b304021818803fba92bb0639a01257" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structlogger__struct" kindref="compound">logger_struct</ref></type>
+        <definition>struct logger_struct temperature_task_struct</definition>
+        <argsstring></argsstring>
+        <name>temperature_task_struct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/i2c_task.c" line="12" column="1" bodyfile="src/i2c_task.c" bodystart="14" bodyend="-1"/>
+        <referencedby refid="i2c__task_8c_1a6c1c15219c8f3fadb64d38a41254cb35" compoundref="i2c__task_8c" startline="76" endline="113">tmp102Task</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="i2c__task_8c_1a64303230bf4843297e7ac37ac236ca04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void i2c_init</definition>
+        <argsstring>()</argsstring>
+        <name>i2c_init</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/i2c_task.c" line="17" column="1" bodyfile="src/i2c_task.c" bodystart="17" bodyend="37"/>
+        <references refid="i2c__task_8c_1a78c3f812b421245a382942712ad28694" compoundref="main_8c" startline="46">output_clock_rate_hz</references>
+      </memberdef>
+      <memberdef kind="function" id="i2c__task_8c_1aa40be7a8925dc4aa79b1ee7b489e0497" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint8_t</type>
+        <definition>uint8_t I2CGet2Bytes</definition>
+        <argsstring>(uint8_t target_addr, uint8_t register_addr, int16_t *data)</argsstring>
+        <name>I2CGet2Bytes</name>
+        <param>
+          <type>uint8_t</type>
+          <declname>target_addr</declname>
+        </param>
+        <param>
+          <type>uint8_t</type>
+          <declname>register_addr</declname>
+        </param>
+        <param>
+          <type>int16_t *</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/i2c_task.c" line="39" column="1" bodyfile="src/i2c_task.c" bodystart="39" bodyend="73"/>
+        <references refid="structlogger__struct_1ac78f1b76e43362372e6ee6cd3b9f9c4f">logger_struct::data</references>
+      </memberdef>
+      <memberdef kind="function" id="i2c__task_8c_1a6c1c15219c8f3fadb64d38a41254cb35" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void tmp102Task</definition>
+        <argsstring>(void *pvParameters)</argsstring>
+        <name>tmp102Task</name>
+        <param>
+          <type>void *</type>
+          <declname>pvParameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/i2c_task.c" line="76" column="1" bodyfile="src/i2c_task.c" bodystart="76" bodyend="113"/>
+        <references refid="i2c__task_8c_1ae3b304021818803fba92bb0639a01257" compoundref="i2c__task_8c" startline="14">temperature_task_struct</references>
+        <references refid="structlogger__struct_1ac78f1b76e43362372e6ee6cd3b9f9c4f">logger_struct::data</references>
+        <references refid="unionlogger__struct_1_1data_1a6600716eb0c18dc636b6ba8942dd8627" compoundref="logger__task_8h" startline="41">logger_struct::data::temp</references>
+        <references refid="i2c__task_8h_1ad4cdc3ca0606004499ab7629f2de5271">temperature_struct</references>
+        <references refid="i2c__task_8c_1aa40be7a8925dc4aa79b1ee7b489e0497" compoundref="i2c__task_8c" startline="39" endline="73">I2CGet2Bytes</references>
+        <references refid="i2c__task_8h_1ad66a61ad6998d596fd4c027c9872299b" compoundref="i2c__task_8h" startline="33">TEMP_ADDR</references>
+        <references refid="i2c__task_8c_1a568e88033187e800945d602047df01f4" compoundref="main_8c" startline="50">alert_task_handle</references>
+        <references refid="i2c__task_8c_1a0639b448c4862618f597670523ef9975" compoundref="main_8c" startline="48">xSemaphore</references>
+        <references refid="structlogger__struct_1acc75b26fc2d74d1d7f7309a0edb4a608" compoundref="logger__task_8h" startline="36">logger_struct::task_name</references>
+        <references refid="structlogger__struct_1ad52bd755b5ebc942e533fff320241df5" compoundref="logger__task_8h" startline="37">logger_struct::ulTimeStamp</references>
+        <references refid="structtemperature__struct_1ae24c4d0933e7b6558f90af91715b736a" compoundref="i2c__task_8h" startline="38">temperature_struct::temp</references>
+        <references refid="logger__task_8h_1a27bfb5ed11da21b301ec5bbce6cba85b" compoundref="logger__task_8h" startline="31">queueHandle</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="8"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="i2c__task_8h" kindref="compound">inc/i2c_task.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>TaskHandle_t<sp/><ref refid="i2c__task_8c_1a568e88033187e800945d602047df01f4" kindref="member">alert_task_handle</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>SemaphoreHandle_t<sp/><ref refid="i2c__task_8c_1a0639b448c4862618f597670523ef9975" kindref="member">xSemaphore</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>uint32_t<sp/><ref refid="i2c__task_8c_1a78c3f812b421245a382942712ad28694" kindref="member">output_clock_rate_hz</ref>;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="14" refid="i2c__task_8c_1ae3b304021818803fba92bb0639a01257" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structlogger__struct" kindref="compound">logger_struct</ref><sp/><ref refid="i2c__task_8c_1ae3b304021818803fba92bb0639a01257" kindref="member">temperature_task_struct</ref>;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="i2c__task_8c_1a64303230bf4843297e7ac37ac236ca04" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="i2c__task_8c_1a64303230bf4843297e7ac37ac236ca04" kindref="member">i2c_init</ref>()</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>SysCtlPeripheralEnable(SYSCTL_PERIPH_I2C2);<sp/></highlight><highlight class="comment">//<sp/>Enable<sp/>i2c2</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/>SysCtlPeripheralEnable(SYSCTL_PERIPH_GPION);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>GPIOPinConfigure(GPIO_PN4_I2C2SDA);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>GPIOPinConfigure(GPIO_PN5_I2C2SCL);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>GPIOPinTypeI2CSCL(GPIO_PORTN_BASE,<sp/>GPIO_PIN_5);</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>GPIOPinTypeI2C(GPIO_PORTN_BASE,<sp/>GPIO_PIN_4);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(!SysCtlPeripheralReady(SYSCTL_PERIPH_I2C2));</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/>I2CMasterInitExpClk(I2C2_BASE,<sp/><ref refid="i2c__task_8c_1a78c3f812b421245a382942712ad28694" kindref="member">output_clock_rate_hz</ref>,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="i2c__task_8c_1aa40be7a8925dc4aa79b1ee7b489e0497" refkind="member"><highlight class="normal">uint8_t<sp/><ref refid="i2c__task_8c_1aa40be7a8925dc4aa79b1ee7b489e0497" kindref="member">I2CGet2Bytes</ref>(uint8_t<sp/>target_addr,<sp/>uint8_t<sp/>register_addr,<sp/>int16_t*<sp/><ref refid="structlogger__struct_1ac78f1b76e43362372e6ee6cd3b9f9c4f" kindref="member">data</ref>)</highlight></codeline>
+<codeline lineno="40"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/>uint8_t<sp/>higherByte,<sp/>lowerByte;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>I2CMasterSlaveAddrSet(I2C2_BASE,<sp/>target_addr,<sp/></highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/>I2CMasterDataPut(I2C2_BASE,<sp/>register_addr);</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/>I2CMasterControl(I2C2_BASE,<sp/>I2C_MASTER_CMD_SINGLE_SEND);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(!I2CMasterBusy(I2C2_BASE));</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(I2CMasterBusy(I2C2_BASE));</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/>I2CMasterSlaveAddrSet(I2C2_BASE,<sp/>target_addr,<sp/></highlight><highlight class="keyword">true</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/>I2CMasterControl(I2C2_BASE,<sp/>I2C_MASTER_CMD_BURST_RECEIVE_START);</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(!I2CMasterBusy(I2C2_BASE));</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"></highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(I2CMasterBusy(I2C2_BASE));</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/>higherByte<sp/>=<sp/>I2CMasterDataGet(I2C2_BASE);</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/>I2CMasterControl(I2C2_BASE,<sp/>I2C_MASTER_CMD_BURST_RECEIVE_FINISH);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(!I2CMasterBusy(I2C2_BASE));</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(I2CMasterBusy(I2C2_BASE));</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"><sp/><sp/><sp/><sp/>lowerByte<sp/>=<sp/>I2CMasterDataGet(I2C2_BASE);</highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>*<ref refid="structlogger__struct_1ac78f1b76e43362372e6ee6cd3b9f9c4f" kindref="member">data</ref><sp/>=<sp/>((higherByte<sp/>&lt;&lt;<sp/>8)<sp/>|<sp/>lowerByte)<sp/>&gt;&gt;<sp/>4;</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>0;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="76" refid="i2c__task_8c_1a6c1c15219c8f3fadb64d38a41254cb35" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="i2c__task_8c_1a6c1c15219c8f3fadb64d38a41254cb35" kindref="member">tmp102Task</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*pvParameters)</highlight></codeline>
+<codeline lineno="77"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="i2c__task_8c_1ae3b304021818803fba92bb0639a01257" kindref="member">temperature_task_struct</ref>.<ref refid="structlogger__struct_1ac78f1b76e43362372e6ee6cd3b9f9c4f" kindref="member">data</ref>.<ref refid="unionlogger__struct_1_1data_1a6600716eb0c18dc636b6ba8942dd8627" kindref="member">temp</ref><sp/>=<sp/>&amp;<ref refid="i2c__task_8h_1ad4cdc3ca0606004499ab7629f2de5271" kindref="member">temperature_struct</ref>;</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(1)</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int16_t<sp/>temp;</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="i2c__task_8c_1aa40be7a8925dc4aa79b1ee7b489e0497" kindref="member">I2CGet2Bytes</ref>(<ref refid="i2c__task_8h_1ad66a61ad6998d596fd4c027c9872299b" kindref="member">TEMP_ADDR</ref>,<sp/>0x00,<sp/>&amp;temp);</highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(temp<sp/>&amp;<sp/>0x800)</highlight></codeline>
+<codeline lineno="85"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="86"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temp<sp/>=<sp/>(~(temp)<sp/>+<sp/>1)<sp/>&amp;<sp/>0xFFF;</highlight></codeline>
+<codeline lineno="87"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temp<sp/>=<sp/>-1<sp/>*<sp/>temp;</highlight></codeline>
+<codeline lineno="88"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="89"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">float</highlight><highlight class="normal"><sp/>temperature;</highlight></codeline>
+<codeline lineno="90"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>temperature<sp/>=<sp/>temp<sp/>*<sp/>0.0625;</highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>int32_t<sp/>temp_int<sp/>=<sp/>(int32_t)(10000.0<sp/>*<sp/>temperature);</highlight></codeline>
+<codeline lineno="93"><highlight class="normal"></highlight></codeline>
+<codeline lineno="94"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(temperature<sp/>&gt;<sp/>27)</highlight></codeline>
+<codeline lineno="95"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="96"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xTaskNotify(<ref refid="i2c__task_8c_1a568e88033187e800945d602047df01f4" kindref="member">alert_task_handle</ref>,<sp/>0,<sp/>eNoAction);</highlight></codeline>
+<codeline lineno="97"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="98"><highlight class="normal"></highlight></codeline>
+<codeline lineno="99"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(temperature<sp/>&lt;<sp/>0)</highlight></codeline>
+<codeline lineno="100"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="101"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xTaskNotify(<ref refid="i2c__task_8c_1a568e88033187e800945d602047df01f4" kindref="member">alert_task_handle</ref>,<sp/>0,<sp/>eNoAction);</highlight></codeline>
+<codeline lineno="102"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="103"><highlight class="normal"></highlight></codeline>
+<codeline lineno="104"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xSemaphoreTake(<ref refid="i2c__task_8c_1a0639b448c4862618f597670523ef9975" kindref="member">xSemaphore</ref>,<sp/>0);</highlight></codeline>
+<codeline lineno="105"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>strcpy(<ref refid="i2c__task_8c_1ae3b304021818803fba92bb0639a01257" kindref="member">temperature_task_struct</ref>.<ref refid="structlogger__struct_1acc75b26fc2d74d1d7f7309a0edb4a608" kindref="member">task_name</ref>,</highlight><highlight class="stringliteral">&quot;TEMP&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="106"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="i2c__task_8c_1ae3b304021818803fba92bb0639a01257" kindref="member">temperature_task_struct</ref>.<ref refid="structlogger__struct_1ad52bd755b5ebc942e533fff320241df5" kindref="member">ulTimeStamp</ref><sp/>=<sp/>xTaskGetTickCount();</highlight></codeline>
+<codeline lineno="107"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sprintf(<ref refid="i2c__task_8c_1ae3b304021818803fba92bb0639a01257" kindref="member">temperature_task_struct</ref>.<ref refid="structlogger__struct_1ac78f1b76e43362372e6ee6cd3b9f9c4f" kindref="member">data</ref>.<ref refid="unionlogger__struct_1_1data_1a6600716eb0c18dc636b6ba8942dd8627" kindref="member">temp</ref>-&gt;<ref refid="structtemperature__struct_1ae24c4d0933e7b6558f90af91715b736a" kindref="member">temp</ref>,</highlight><highlight class="stringliteral">&quot;Temperature<sp/>=<sp/>%d.%d\n&quot;</highlight><highlight class="normal">,(int32_t)temp_int/10000,<sp/>(int32_t)temp_int%10000);</highlight></codeline>
+<codeline lineno="108"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xQueueSendToBack(<ref refid="logger__task_8h_1a27bfb5ed11da21b301ec5bbce6cba85b" kindref="member">queueHandle</ref>,(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/>)<sp/>&amp;<ref refid="i2c__task_8c_1ae3b304021818803fba92bb0639a01257" kindref="member">temperature_task_struct</ref>,<sp/>10)<sp/>;</highlight></codeline>
+<codeline lineno="109"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xSemaphoreGive(<ref refid="i2c__task_8c_1a0639b448c4862618f597670523ef9975" kindref="member">xSemaphore</ref>);</highlight></codeline>
+<codeline lineno="110"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>vTaskDelay(1000<sp/>/<sp/>portTICK_PERIOD_MS);</highlight></codeline>
+<codeline lineno="111"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/i2c_task.c"/>
+  </compounddef>
+</doxygen>

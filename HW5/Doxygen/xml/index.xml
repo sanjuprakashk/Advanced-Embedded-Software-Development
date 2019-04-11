@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.15">
+  <compound refid="structalert__struct" kind="struct"><name>alert_struct</name>
+    <member refid="structalert__struct_1aaaafa009a09af6ff0dd8dc84dd149f8f" kind="variable"><name>notification</name></member>
+  </compound>
+  <compound refid="unionlogger__struct_1_1data" kind="union"><name>logger_struct::data</name>
+    <member refid="unionlogger__struct_1_1data_1a6600716eb0c18dc636b6ba8942dd8627" kind="variable"><name>temp</name></member>
+    <member refid="unionlogger__struct_1_1data_1a98aa883fdacb14366e24164b40648903" kind="variable"><name>led</name></member>
+    <member refid="unionlogger__struct_1_1data_1a7c2de7362dd7a4977188c646b7747ffa" kind="variable"><name>alert</name></member>
+  </compound>
+  <compound refid="structled__struct" kind="struct"><name>led_struct</name>
+    <member refid="structled__struct_1a832adba5e0a1bb54be2437a3c8f73df2" kind="variable"><name>toggle_count</name></member>
+    <member refid="structled__struct_1ae5cb967283dbbdf75cb2032c1fa08fee" kind="variable"><name>name</name></member>
+  </compound>
+  <compound refid="structlogger__struct" kind="struct"><name>logger_struct</name>
+    <member refid="structlogger__struct_1acc75b26fc2d74d1d7f7309a0edb4a608" kind="variable"><name>task_name</name></member>
+    <member refid="structlogger__struct_1ad52bd755b5ebc942e533fff320241df5" kind="variable"><name>ulTimeStamp</name></member>
+    <member refid="structlogger__struct_1ac78f1b76e43362372e6ee6cd3b9f9c4f" kind="variable"><name>data</name></member>
+  </compound>
+  <compound refid="structtemperature__struct" kind="struct"><name>temperature_struct</name>
+    <member refid="structtemperature__struct_1ae24c4d0933e7b6558f90af91715b736a" kind="variable"><name>temp</name></member>
+  </compound>
+  <compound refid="alert__task_8h" kind="file"><name>alert_task.h</name>
+    <member refid="alert__task_8h_1a3bf58342d7e76ae9360c7aab1ee32484" kind="variable"><name>alert_struct</name></member>
+    <member refid="alert__task_8h_1aa8ed6c7d06199362625b236b9ced267a" kind="function"><name>alertTask</name></member>
+  </compound>
+  <compound refid="i2c__task_8h" kind="file"><name>i2c_task.h</name>
+    <member refid="i2c__task_8h_1ad66a61ad6998d596fd4c027c9872299b" kind="define"><name>TEMP_ADDR</name></member>
+    <member refid="i2c__task_8h_1ad4cdc3ca0606004499ab7629f2de5271" kind="variable"><name>temperature_struct</name></member>
+    <member refid="i2c__task_8h_1a64303230bf4843297e7ac37ac236ca04" kind="function"><name>i2c_init</name></member>
+    <member refid="i2c__task_8h_1a6c1c15219c8f3fadb64d38a41254cb35" kind="function"><name>tmp102Task</name></member>
+    <member refid="i2c__task_8h_1aa40be7a8925dc4aa79b1ee7b489e0497" kind="function"><name>I2CGet2Bytes</name></member>
+  </compound>
+  <compound refid="led__task_8h" kind="file"><name>led_task.h</name>
+    <member refid="led__task_8h_1ad223c996c69019499c4049b7a349e41a" kind="variable"><name>led_struct</name></member>
+    <member refid="led__task_8h_1a09ad99fa7d6601fbf66cdf9ee1c1b454" kind="function"><name>ledToggleTask</name></member>
+  </compound>
+  <compound refid="logger__task_8h" kind="file"><name>logger_task.h</name>
+    <member refid="logger__task_8h_1a6af96363cbe21070ae6432f0187d97fb" kind="define"><name>Q_LENGTH</name></member>
+    <member refid="logger__task_8h_1a27bfb5ed11da21b301ec5bbce6cba85b" kind="variable"><name>queueHandle</name></member>
+    <member refid="logger__task_8h_1aebc8aadea259e2f2a30338cc9f99516b" kind="variable"><name>logger_struct</name></member>
+    <member refid="logger__task_8h_1a602e068119bc12b4f0055559d9770f87" kind="function"><name>loggerTask</name></member>
+  </compound>
+  <compound refid="timer__callback_8h" kind="file"><name>timer_callback.h</name>
+    <member refid="timer__callback_8h_1ae4caa6d350ad7f8ca97dcc0cd56885f9" kind="function"><name>vTimerCallback</name></member>
+  </compound>
+  <compound refid="main_8c" kind="file"><name>main.c</name>
+    <member refid="main_8c_1a78c3f812b421245a382942712ad28694" kind="variable"><name>output_clock_rate_hz</name></member>
+    <member refid="main_8c_1a0639b448c4862618f597670523ef9975" kind="variable"><name>xSemaphore</name></member>
+    <member refid="main_8c_1a568e88033187e800945d602047df01f4" kind="variable"><name>alert_task_handle</name></member>
+    <member refid="main_8c_1a840291bc02cba5474a4cb46a9b9566fe" kind="function"><name>main</name></member>
+    <member refid="main_8c_1a9cbff4035d547129f9c7c07129d2fa01" kind="function"><name>__error__</name></member>
+  </compound>
+  <compound refid="main_8h" kind="file"><name>main.h</name>
+    <member refid="main_8h_1a95982eccb57c2ae35f8ba3d8f0b05653" kind="define"><name>SYSTEM_CLOCK</name></member>
+  </compound>
+  <compound refid="alert__task_8c" kind="file"><name>alert_task.c</name>
+    <member refid="alert__task_8c_1a0639b448c4862618f597670523ef9975" kind="variable"><name>xSemaphore</name></member>
+    <member refid="alert__task_8c_1a4b4861b8ba68cbb0524b2fc64dfa6941" kind="variable"><name>alert_task_struct</name></member>
+    <member refid="alert__task_8c_1aa8ed6c7d06199362625b236b9ced267a" kind="function"><name>alertTask</name></member>
+  </compound>
+  <compound refid="i2c__task_8c" kind="file"><name>i2c_task.c</name>
+    <member refid="i2c__task_8c_1a568e88033187e800945d602047df01f4" kind="variable"><name>alert_task_handle</name></member>
+    <member refid="i2c__task_8c_1a0639b448c4862618f597670523ef9975" kind="variable"><name>xSemaphore</name></member>
+    <member refid="i2c__task_8c_1a78c3f812b421245a382942712ad28694" kind="variable"><name>output_clock_rate_hz</name></member>
+    <member refid="i2c__task_8c_1ae3b304021818803fba92bb0639a01257" kind="variable"><name>temperature_task_struct</name></member>
+    <member refid="i2c__task_8c_1a64303230bf4843297e7ac37ac236ca04" kind="function"><name>i2c_init</name></member>
+    <member refid="i2c__task_8c_1aa40be7a8925dc4aa79b1ee7b489e0497" kind="function"><name>I2CGet2Bytes</name></member>
+    <member refid="i2c__task_8c_1a6c1c15219c8f3fadb64d38a41254cb35" kind="function"><name>tmp102Task</name></member>
+  </compound>
+  <compound refid="led__task_8c" kind="file"><name>led_task.c</name>
+    <member refid="led__task_8c_1a0639b448c4862618f597670523ef9975" kind="variable"><name>xSemaphore</name></member>
+    <member refid="led__task_8c_1a060e8052d305ed10611385341f4422db" kind="variable"><name>toggleFlag</name></member>
+    <member refid="led__task_8c_1ab196be32809ec73ff1c1ed9e8f2d0358" kind="variable"><name>led_task_struct</name></member>
+    <member refid="led__task_8c_1a09ad99fa7d6601fbf66cdf9ee1c1b454" kind="function"><name>ledToggleTask</name></member>
+  </compound>
+  <compound refid="logger__task_8c" kind="file"><name>logger_task.c</name>
+    <member refid="logger__task_8c_1a602e068119bc12b4f0055559d9770f87" kind="function"><name>loggerTask</name></member>
+  </compound>
+  <compound refid="timer__callback_8c" kind="file"><name>timer_callback.c</name>
+    <member refid="timer__callback_8c_1a060e8052d305ed10611385341f4422db" kind="variable"><name>toggleFlag</name></member>
+    <member refid="timer__callback_8c_1ae4caa6d350ad7f8ca97dcc0cd56885f9" kind="function"><name>vTimerCallback</name></member>
+  </compound>
+  <compound refid="dir_bfccd401955b95cf8c75461437045ac0" kind="dir"><name>inc</name>
+  </compound>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>src</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,375 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="led__task_8h" kind="file" language="C++">
+    <compoundname>led_task.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdint.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="yes">driverlib/i2c.h</includes>
+    <includes local="yes">driverlib/inc/hw_memmap.h</includes>
+    <includes local="yes">driverlib/pin_map.h</includes>
+    <includes local="yes">driverlib/sysctl.h</includes>
+    <includes local="yes">driverlib/gpio.h</includes>
+    <includes local="yes">drivers/pinout.h</includes>
+    <includes local="yes">FreeRTOS.h</includes>
+    <includes local="yes">task.h</includes>
+    <includes local="yes">queue.h</includes>
+    <includes local="yes">semphr.h</includes>
+    <includes local="yes">timers.h</includes>
+    <includes refid="logger__task_8h" local="yes">inc/logger_task.h</includes>
+    <includes refid="timer__callback_8h" local="yes">inc/timer_callback.h</includes>
+    <includedby refid="logger__task_8h" local="yes">inc/logger_task.h</includedby>
+    <includedby refid="main_8c" local="yes">main.c</includedby>
+    <includedby refid="led__task_8c" local="yes">src/led_task.c</includedby>
+    <incdepgraph>
+      <node id="63">
+        <label>stdbool.h</label>
+      </node>
+      <node id="76">
+        <label>inc/logger_task.h</label>
+        <link refid="logger__task_8h"/>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="77" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="60" relation="include">
+        </childnode>
+        <childnode refid="78" relation="include">
+        </childnode>
+        <childnode refid="79" relation="include">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>driverlib/inc/hw_memmap.h</label>
+      </node>
+      <node id="80">
+        <label>inc/timer_callback.h</label>
+        <link refid="timer__callback_8h"/>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+      </node>
+      <node id="68">
+        <label>driverlib/sysctl.h</label>
+      </node>
+      <node id="73">
+        <label>queue.h</label>
+      </node>
+      <node id="62">
+        <label>stdint.h</label>
+      </node>
+      <node id="79">
+        <label>inc/alert_task.h</label>
+        <link refid="alert__task_8h"/>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+      </node>
+      <node id="67">
+        <label>driverlib/pin_map.h</label>
+      </node>
+      <node id="64">
+        <label>string.h</label>
+      </node>
+      <node id="74">
+        <label>semphr.h</label>
+      </node>
+      <node id="69">
+        <label>driverlib/gpio.h</label>
+      </node>
+      <node id="70">
+        <label>drivers/pinout.h</label>
+      </node>
+      <node id="65">
+        <label>driverlib/i2c.h</label>
+      </node>
+      <node id="75">
+        <label>timers.h</label>
+      </node>
+      <node id="78">
+        <label>inc/i2c_task.h</label>
+        <link refid="i2c__task_8h"/>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>inc/led_task.h</label>
+        <link refid="led__task_8h"/>
+        <childnode refid="61" relation="include">
+        </childnode>
+        <childnode refid="62" relation="include">
+        </childnode>
+        <childnode refid="63" relation="include">
+        </childnode>
+        <childnode refid="64" relation="include">
+        </childnode>
+        <childnode refid="65" relation="include">
+        </childnode>
+        <childnode refid="66" relation="include">
+        </childnode>
+        <childnode refid="67" relation="include">
+        </childnode>
+        <childnode refid="68" relation="include">
+        </childnode>
+        <childnode refid="69" relation="include">
+        </childnode>
+        <childnode refid="70" relation="include">
+        </childnode>
+        <childnode refid="71" relation="include">
+        </childnode>
+        <childnode refid="72" relation="include">
+        </childnode>
+        <childnode refid="73" relation="include">
+        </childnode>
+        <childnode refid="74" relation="include">
+        </childnode>
+        <childnode refid="75" relation="include">
+        </childnode>
+        <childnode refid="76" relation="include">
+        </childnode>
+        <childnode refid="80" relation="include">
+        </childnode>
+      </node>
+      <node id="77">
+        <label>utils/uartstdio.h</label>
+      </node>
+      <node id="61">
+        <label>stdio.h</label>
+      </node>
+      <node id="71">
+        <label>FreeRTOS.h</label>
+      </node>
+      <node id="72">
+        <label>task.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="82">
+        <label>inc/logger_task.h</label>
+        <link refid="logger__task_8h"/>
+        <childnode refid="83" relation="include">
+        </childnode>
+        <childnode refid="81" relation="include">
+        </childnode>
+        <childnode refid="86" relation="include">
+        </childnode>
+        <childnode refid="84" relation="include">
+        </childnode>
+        <childnode refid="88" relation="include">
+        </childnode>
+      </node>
+      <node id="86">
+        <label>inc/alert_task.h</label>
+        <link refid="alert__task_8h"/>
+        <childnode refid="82" relation="include">
+        </childnode>
+        <childnode refid="84" relation="include">
+        </childnode>
+        <childnode refid="87" relation="include">
+        </childnode>
+      </node>
+      <node id="89">
+        <label>src/led_task.c</label>
+        <link refid="led__task_8c"/>
+      </node>
+      <node id="84">
+        <label>main.c</label>
+        <link refid="main_8c"/>
+      </node>
+      <node id="87">
+        <label>src/alert_task.c</label>
+        <link refid="alert__task_8c"/>
+      </node>
+      <node id="83">
+        <label>inc/i2c_task.h</label>
+        <link refid="i2c__task_8h"/>
+        <childnode refid="84" relation="include">
+        </childnode>
+        <childnode refid="82" relation="include">
+        </childnode>
+        <childnode refid="85" relation="include">
+        </childnode>
+      </node>
+      <node id="85">
+        <label>src/i2c_task.c</label>
+        <link refid="i2c__task_8c"/>
+      </node>
+      <node id="81">
+        <label>inc/led_task.h</label>
+        <link refid="led__task_8h"/>
+        <childnode refid="82" relation="include">
+        </childnode>
+        <childnode refid="84" relation="include">
+        </childnode>
+        <childnode refid="89" relation="include">
+        </childnode>
+      </node>
+      <node id="88">
+        <label>src/logger_task.c</label>
+        <link refid="logger__task_8c"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structled__struct" prot="public">led_struct</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="led__task_8h_1ad223c996c69019499c4049b7a349e41a" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structled__struct" kindref="compound">led_struct</ref></type>
+        <definition>struct led_struct led_struct</definition>
+        <argsstring></argsstring>
+        <name>led_struct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="inc/led_task.h" line="41" column="1"/>
+        <referencedby refid="led__task_8c_1a09ad99fa7d6601fbf66cdf9ee1c1b454" compoundref="led__task_8c" startline="15" endline="55">ledToggleTask</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="led__task_8h_1a09ad99fa7d6601fbf66cdf9ee1c1b454" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ledToggleTask</definition>
+        <argsstring>(void *pvParameters)</argsstring>
+        <name>ledToggleTask</name>
+        <param>
+          <type>void *</type>
+          <declname>pvParameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="inc/led_task.h" line="43" column="1" bodyfile="src/led_task.c" bodystart="15" bodyend="55"/>
+        <references refid="led__task_8c_1ab196be32809ec73ff1c1ed9e8f2d0358" compoundref="led__task_8c" startline="13">led_task_struct</references>
+        <references refid="structlogger__struct_1ac78f1b76e43362372e6ee6cd3b9f9c4f">logger_struct::data</references>
+        <references refid="unionlogger__struct_1_1data_1a98aa883fdacb14366e24164b40648903" compoundref="logger__task_8h" startline="42">logger_struct::data::led</references>
+        <references refid="led__task_8h_1ad223c996c69019499c4049b7a349e41a">led_struct</references>
+        <references refid="timer__callback_8h_1ae4caa6d350ad7f8ca97dcc0cd56885f9" compoundref="timer__callback_8c" startline="12" endline="15">vTimerCallback</references>
+        <references refid="led__task_8c_1a060e8052d305ed10611385341f4422db" compoundref="timer__callback_8c" startline="10">toggleFlag</references>
+        <references refid="led__task_8c_1a0639b448c4862618f597670523ef9975" compoundref="main_8c" startline="48">xSemaphore</references>
+        <references refid="structlogger__struct_1acc75b26fc2d74d1d7f7309a0edb4a608" compoundref="logger__task_8h" startline="36">logger_struct::task_name</references>
+        <references refid="structlogger__struct_1ad52bd755b5ebc942e533fff320241df5" compoundref="logger__task_8h" startline="37">logger_struct::ulTimeStamp</references>
+        <references refid="structled__struct_1a832adba5e0a1bb54be2437a3c8f73df2" compoundref="led__task_8h" startline="39">led_struct::toggle_count</references>
+        <references refid="structled__struct_1ae5cb967283dbbdf75cb2032c1fa08fee" compoundref="led__task_8h" startline="40">led_struct::name</references>
+        <references refid="logger__task_8h_1a27bfb5ed11da21b301ec5bbce6cba85b" compoundref="logger__task_8h" startline="31">queueHandle</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="8"><highlight class="preprocessor">#ifndef<sp/>LED_TASK_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>LED_TASK_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*****************************************************************</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Includes</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">*****************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;driverlib/i2c.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;driverlib/inc/hw_memmap.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;driverlib/pin_map.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;driverlib/sysctl.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;driverlib/gpio.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;drivers/pinout.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;FreeRTOS.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;task.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;queue.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;semphr.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;timers.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="logger__task_8h" kindref="compound">inc/logger_task.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="timer__callback_8h" kindref="compound">inc/timer_callback.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Structure<sp/>to<sp/>store<sp/>the<sp/>led<sp/>status<sp/>and<sp/>count<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37" refid="structled__struct" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structled__struct" kindref="compound">led_struct</ref></highlight></codeline>
+<codeline lineno="38"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="39" refid="structled__struct_1a832adba5e0a1bb54be2437a3c8f73df2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="structled__struct_1a832adba5e0a1bb54be2437a3c8f73df2" kindref="member">toggle_count</ref>[50];</highlight></codeline>
+<codeline lineno="40" refid="structled__struct_1ae5cb967283dbbdf75cb2032c1fa08fee" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="structled__struct_1ae5cb967283dbbdf75cb2032c1fa08fee" kindref="member">name</ref>[50];</highlight></codeline>
+<codeline lineno="41"><highlight class="normal">}<ref refid="led__task_8h_1ad223c996c69019499c4049b7a349e41a" kindref="member">led_struct</ref>;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="led__task_8h_1a09ad99fa7d6601fbf66cdf9ee1c1b454" kindref="member">ledToggleTask</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*pvParameters);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="45"><highlight class="comment">--------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="46"><highlight class="comment">ledToggleTask</highlight></codeline>
+<codeline lineno="47"><highlight class="comment">--------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="48"><highlight class="comment">*<sp/><sp/><sp/>This<sp/>functions<sp/>is<sp/>used<sp/>to<sp/>toggle<sp/>LEDs</highlight></codeline>
+<codeline lineno="49"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="50"><highlight class="comment">*<sp/><sp/><sp/>@\param<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>void</highlight></codeline>
+<codeline lineno="51"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="52"><highlight class="comment">*<sp/><sp/><sp/>@\return<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>void</highlight></codeline>
+<codeline lineno="53"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="54"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="inc/led_task.h"/>
+  </compounddef>
+</doxygen>

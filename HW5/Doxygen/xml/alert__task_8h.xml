@@ -1,0 +1,353 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="alert__task_8h" kind="file" language="C++">
+    <compoundname>alert_task.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdint.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="yes">FreeRTOS.h</includes>
+    <includes local="yes">task.h</includes>
+    <includes local="yes">queue.h</includes>
+    <includes local="yes">semphr.h</includes>
+    <includes refid="logger__task_8h" local="yes">inc/logger_task.h</includes>
+    <includedby refid="logger__task_8h" local="yes">inc/logger_task.h</includedby>
+    <includedby refid="main_8c" local="yes">main.c</includedby>
+    <includedby refid="alert__task_8c" local="yes">src/alert_task.c</includedby>
+    <incdepgraph>
+      <node id="3">
+        <label>stdbool.h</label>
+      </node>
+      <node id="9">
+        <label>inc/logger_task.h</label>
+        <link refid="logger__task_8h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="20" relation="include">
+        </childnode>
+        <childnode refid="0" relation="include">
+        </childnode>
+      </node>
+      <node id="13">
+        <label>driverlib/inc/hw_memmap.h</label>
+      </node>
+      <node id="19">
+        <label>inc/timer_callback.h</label>
+        <link refid="timer__callback_8h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>driverlib/sysctl.h</label>
+      </node>
+      <node id="7">
+        <label>queue.h</label>
+      </node>
+      <node id="2">
+        <label>stdint.h</label>
+      </node>
+      <node id="0">
+        <label>inc/alert_task.h</label>
+        <link refid="alert__task_8h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="14">
+        <label>driverlib/pin_map.h</label>
+      </node>
+      <node id="4">
+        <label>string.h</label>
+      </node>
+      <node id="8">
+        <label>semphr.h</label>
+      </node>
+      <node id="16">
+        <label>driverlib/gpio.h</label>
+      </node>
+      <node id="17">
+        <label>drivers/pinout.h</label>
+      </node>
+      <node id="12">
+        <label>driverlib/i2c.h</label>
+      </node>
+      <node id="18">
+        <label>timers.h</label>
+      </node>
+      <node id="20">
+        <label>inc/i2c_task.h</label>
+        <link refid="i2c__task_8h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>inc/led_task.h</label>
+        <link refid="led__task_8h"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="16" relation="include">
+        </childnode>
+        <childnode refid="17" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="18" relation="include">
+        </childnode>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="19" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>utils/uartstdio.h</label>
+      </node>
+      <node id="1">
+        <label>stdio.h</label>
+      </node>
+      <node id="5">
+        <label>FreeRTOS.h</label>
+      </node>
+      <node id="6">
+        <label>task.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="22">
+        <label>inc/logger_task.h</label>
+        <link refid="logger__task_8h"/>
+        <childnode refid="23" relation="include">
+        </childnode>
+        <childnode refid="26" relation="include">
+        </childnode>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="28" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>inc/alert_task.h</label>
+        <link refid="alert__task_8h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="29" relation="include">
+        </childnode>
+      </node>
+      <node id="27">
+        <label>src/led_task.c</label>
+        <link refid="led__task_8c"/>
+      </node>
+      <node id="24">
+        <label>main.c</label>
+        <link refid="main_8c"/>
+      </node>
+      <node id="29">
+        <label>src/alert_task.c</label>
+        <link refid="alert__task_8c"/>
+      </node>
+      <node id="23">
+        <label>inc/i2c_task.h</label>
+        <link refid="i2c__task_8h"/>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="25" relation="include">
+        </childnode>
+      </node>
+      <node id="25">
+        <label>src/i2c_task.c</label>
+        <link refid="i2c__task_8c"/>
+      </node>
+      <node id="26">
+        <label>inc/led_task.h</label>
+        <link refid="led__task_8h"/>
+        <childnode refid="22" relation="include">
+        </childnode>
+        <childnode refid="24" relation="include">
+        </childnode>
+        <childnode refid="27" relation="include">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>src/logger_task.c</label>
+        <link refid="logger__task_8c"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="structalert__struct" prot="public">alert_struct</innerclass>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="alert__task_8h_1a3bf58342d7e76ae9360c7aab1ee32484" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structalert__struct" kindref="compound">alert_struct</ref></type>
+        <definition>struct alert_struct alert_struct</definition>
+        <argsstring></argsstring>
+        <name>alert_struct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="inc/alert_task.h" line="30" column="1"/>
+        <referencedby refid="alert__task_8c_1aa8ed6c7d06199362625b236b9ced267a" compoundref="alert__task_8c" startline="14" endline="31">alertTask</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="alert__task_8h_1aa8ed6c7d06199362625b236b9ced267a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void alertTask</definition>
+        <argsstring>(void *pvParameters)</argsstring>
+        <name>alertTask</name>
+        <param>
+          <type>void *</type>
+          <declname>pvParameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="inc/alert_task.h" line="43" column="1" bodyfile="src/alert_task.c" bodystart="14" bodyend="31"/>
+        <references refid="alert__task_8c_1a4b4861b8ba68cbb0524b2fc64dfa6941" compoundref="alert__task_8c" startline="12">alert_task_struct</references>
+        <references refid="structlogger__struct_1ac78f1b76e43362372e6ee6cd3b9f9c4f">logger_struct::data</references>
+        <references refid="unionlogger__struct_1_1data_1a7c2de7362dd7a4977188c646b7747ffa" compoundref="logger__task_8h" startline="43">logger_struct::data::alert</references>
+        <references refid="alert__task_8h_1a3bf58342d7e76ae9360c7aab1ee32484">alert_struct</references>
+        <references refid="alert__task_8c_1a0639b448c4862618f597670523ef9975" compoundref="main_8c" startline="48">xSemaphore</references>
+        <references refid="structlogger__struct_1ad52bd755b5ebc942e533fff320241df5" compoundref="logger__task_8h" startline="37">logger_struct::ulTimeStamp</references>
+        <references refid="structlogger__struct_1acc75b26fc2d74d1d7f7309a0edb4a608" compoundref="logger__task_8h" startline="36">logger_struct::task_name</references>
+        <references refid="structalert__struct_1aaaafa009a09af6ff0dd8dc84dd149f8f" compoundref="alert__task_8h" startline="29">alert_struct::notification</references>
+        <references refid="logger__task_8h_1a27bfb5ed11da21b301ec5bbce6cba85b" compoundref="logger__task_8h" startline="31">queueHandle</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="8"><highlight class="preprocessor">#ifndef<sp/>ALERT_TASK_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ALERT_TASK_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*****************************************************************</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Includes</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">*****************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;string.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;FreeRTOS.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;task.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;queue.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;semphr.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="logger__task_8h" kindref="compound">inc/logger_task.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Structure<sp/>to<sp/>store<sp/>the<sp/>alert<sp/>notification<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27" refid="structalert__struct" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structalert__struct" kindref="compound">alert_struct</ref></highlight></codeline>
+<codeline lineno="28"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="29" refid="structalert__struct_1aaaafa009a09af6ff0dd8dc84dd149f8f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><ref refid="structalert__struct_1aaaafa009a09af6ff0dd8dc84dd149f8f" kindref="member">notification</ref>[50];</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}<ref refid="alert__task_8h_1a3bf58342d7e76ae9360c7aab1ee32484" kindref="member">alert_struct</ref>;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="33"><highlight class="comment">--------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="34"><highlight class="comment">alertTask</highlight></codeline>
+<codeline lineno="35"><highlight class="comment">--------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="36"><highlight class="comment">*<sp/><sp/><sp/>This<sp/>functions<sp/>is<sp/>used<sp/>to<sp/>issue<sp/>alerts<sp/>when<sp/>temperature<sp/>crosses<sp/>threshold<sp/>values</highlight></codeline>
+<codeline lineno="37"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="38"><highlight class="comment">*<sp/><sp/><sp/>@\param<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>void</highlight></codeline>
+<codeline lineno="39"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="40"><highlight class="comment">*<sp/><sp/><sp/>@\return<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>void</highlight></codeline>
+<codeline lineno="41"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="42"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="alert__task_8h_1aa8ed6c7d06199362625b236b9ced267a" kindref="member">alertTask</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*pvParameters);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
+    </programlisting>
+    <location file="inc/alert_task.h"/>
+  </compounddef>
+</doxygen>

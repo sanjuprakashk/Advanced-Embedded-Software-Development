@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="led__task_8c" kind="file" language="C++">
+    <compoundname>led_task.c</compoundname>
+    <includes refid="led__task_8h" local="yes">inc/led_task.h</includes>
+    <incdepgraph>
+      <node id="218">
+        <label>stdbool.h</label>
+      </node>
+      <node id="231">
+        <label>inc/logger_task.h</label>
+        <link refid="logger__task_8h"/>
+        <childnode refid="216" relation="include">
+        </childnode>
+        <childnode refid="217" relation="include">
+        </childnode>
+        <childnode refid="218" relation="include">
+        </childnode>
+        <childnode refid="219" relation="include">
+        </childnode>
+        <childnode refid="232" relation="include">
+        </childnode>
+        <childnode refid="226" relation="include">
+        </childnode>
+        <childnode refid="228" relation="include">
+        </childnode>
+        <childnode refid="215" relation="include">
+        </childnode>
+        <childnode refid="233" relation="include">
+        </childnode>
+        <childnode refid="234" relation="include">
+        </childnode>
+      </node>
+      <node id="221">
+        <label>driverlib/inc/hw_memmap.h</label>
+      </node>
+      <node id="235">
+        <label>inc/timer_callback.h</label>
+        <link refid="timer__callback_8h"/>
+        <childnode refid="216" relation="include">
+        </childnode>
+        <childnode refid="217" relation="include">
+        </childnode>
+        <childnode refid="226" relation="include">
+        </childnode>
+        <childnode refid="230" relation="include">
+        </childnode>
+      </node>
+      <node id="223">
+        <label>driverlib/sysctl.h</label>
+      </node>
+      <node id="228">
+        <label>queue.h</label>
+      </node>
+      <node id="217">
+        <label>stdint.h</label>
+      </node>
+      <node id="234">
+        <label>inc/alert_task.h</label>
+        <link refid="alert__task_8h"/>
+        <childnode refid="216" relation="include">
+        </childnode>
+        <childnode refid="217" relation="include">
+        </childnode>
+        <childnode refid="218" relation="include">
+        </childnode>
+        <childnode refid="219" relation="include">
+        </childnode>
+        <childnode refid="226" relation="include">
+        </childnode>
+        <childnode refid="227" relation="include">
+        </childnode>
+        <childnode refid="228" relation="include">
+        </childnode>
+        <childnode refid="229" relation="include">
+        </childnode>
+        <childnode refid="231" relation="include">
+        </childnode>
+      </node>
+      <node id="214">
+        <label>src/led_task.c</label>
+        <link refid="led__task_8c"/>
+        <childnode refid="215" relation="include">
+        </childnode>
+      </node>
+      <node id="222">
+        <label>driverlib/pin_map.h</label>
+      </node>
+      <node id="219">
+        <label>string.h</label>
+      </node>
+      <node id="229">
+        <label>semphr.h</label>
+      </node>
+      <node id="224">
+        <label>driverlib/gpio.h</label>
+      </node>
+      <node id="225">
+        <label>drivers/pinout.h</label>
+      </node>
+      <node id="220">
+        <label>driverlib/i2c.h</label>
+      </node>
+      <node id="230">
+        <label>timers.h</label>
+      </node>
+      <node id="233">
+        <label>inc/i2c_task.h</label>
+        <link refid="i2c__task_8h"/>
+        <childnode refid="216" relation="include">
+        </childnode>
+        <childnode refid="217" relation="include">
+        </childnode>
+        <childnode refid="218" relation="include">
+        </childnode>
+        <childnode refid="219" relation="include">
+        </childnode>
+        <childnode refid="220" relation="include">
+        </childnode>
+        <childnode refid="221" relation="include">
+        </childnode>
+        <childnode refid="222" relation="include">
+        </childnode>
+        <childnode refid="223" relation="include">
+        </childnode>
+        <childnode refid="224" relation="include">
+        </childnode>
+        <childnode refid="226" relation="include">
+        </childnode>
+        <childnode refid="227" relation="include">
+        </childnode>
+        <childnode refid="228" relation="include">
+        </childnode>
+        <childnode refid="229" relation="include">
+        </childnode>
+        <childnode refid="231" relation="include">
+        </childnode>
+      </node>
+      <node id="215">
+        <label>inc/led_task.h</label>
+        <link refid="led__task_8h"/>
+        <childnode refid="216" relation="include">
+        </childnode>
+        <childnode refid="217" relation="include">
+        </childnode>
+        <childnode refid="218" relation="include">
+        </childnode>
+        <childnode refid="219" relation="include">
+        </childnode>
+        <childnode refid="220" relation="include">
+        </childnode>
+        <childnode refid="221" relation="include">
+        </childnode>
+        <childnode refid="222" relation="include">
+        </childnode>
+        <childnode refid="223" relation="include">
+        </childnode>
+        <childnode refid="224" relation="include">
+        </childnode>
+        <childnode refid="225" relation="include">
+        </childnode>
+        <childnode refid="226" relation="include">
+        </childnode>
+        <childnode refid="227" relation="include">
+        </childnode>
+        <childnode refid="228" relation="include">
+        </childnode>
+        <childnode refid="229" relation="include">
+        </childnode>
+        <childnode refid="230" relation="include">
+        </childnode>
+        <childnode refid="231" relation="include">
+        </childnode>
+        <childnode refid="235" relation="include">
+        </childnode>
+      </node>
+      <node id="232">
+        <label>utils/uartstdio.h</label>
+      </node>
+      <node id="216">
+        <label>stdio.h</label>
+      </node>
+      <node id="226">
+        <label>FreeRTOS.h</label>
+      </node>
+      <node id="227">
+        <label>task.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="led__task_8c_1a0639b448c4862618f597670523ef9975" prot="public" static="no" mutable="no">
+        <type>SemaphoreHandle_t</type>
+        <definition>SemaphoreHandle_t xSemaphore</definition>
+        <argsstring></argsstring>
+        <name>xSemaphore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>\file <ref refid="led__task_8c" kindref="compound">led_task.c</ref> \author Sanju Prakash Kannioth \brief This files contains the function definitions for the led module \date 04/10/2019</para>
+<para>\file <ref refid="alert__task_8c" kindref="compound">alert_task.c</ref> \author Sanju Prakash Kannioth \brief This files contains the function definitions for the alert module \date 04/10/2019 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/led_task.c" line="10" column="1" bodyfile="main.c" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="led__task_8c_1a060e8052d305ed10611385341f4422db" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>volatile uint8_t toggleFlag</definition>
+        <argsstring></argsstring>
+        <name>toggleFlag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>\file <ref refid="timer__callback_8c" kindref="compound">timer_callback.c</ref> \author Sanju Prakash Kannioth \brief This files contains the function definitions for the timer module \date 04/10/2019 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/led_task.c" line="11" column="1" bodyfile="src/timer_callback.c" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="led__task_8c_1ab196be32809ec73ff1c1ed9e8f2d0358" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structlogger__struct" kindref="compound">logger_struct</ref></type>
+        <definition>struct logger_struct led_task_struct</definition>
+        <argsstring></argsstring>
+        <name>led_task_struct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/led_task.c" line="11" column="1" bodyfile="src/led_task.c" bodystart="13" bodyend="-1"/>
+        <referencedby refid="led__task_8c_1a09ad99fa7d6601fbf66cdf9ee1c1b454" compoundref="led__task_8c" startline="15" endline="55">ledToggleTask</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="led__task_8c_1a09ad99fa7d6601fbf66cdf9ee1c1b454" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void ledToggleTask</definition>
+        <argsstring>(void *pvParameters)</argsstring>
+        <name>ledToggleTask</name>
+        <param>
+          <type>void *</type>
+          <declname>pvParameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/led_task.c" line="15" column="1" bodyfile="src/led_task.c" bodystart="15" bodyend="55"/>
+        <references refid="led__task_8c_1ab196be32809ec73ff1c1ed9e8f2d0358" compoundref="led__task_8c" startline="13">led_task_struct</references>
+        <references refid="structlogger__struct_1ac78f1b76e43362372e6ee6cd3b9f9c4f">logger_struct::data</references>
+        <references refid="unionlogger__struct_1_1data_1a98aa883fdacb14366e24164b40648903" compoundref="logger__task_8h" startline="42">logger_struct::data::led</references>
+        <references refid="led__task_8h_1ad223c996c69019499c4049b7a349e41a">led_struct</references>
+        <references refid="timer__callback_8h_1ae4caa6d350ad7f8ca97dcc0cd56885f9" compoundref="timer__callback_8c" startline="12" endline="15">vTimerCallback</references>
+        <references refid="led__task_8c_1a060e8052d305ed10611385341f4422db" compoundref="timer__callback_8c" startline="10">toggleFlag</references>
+        <references refid="led__task_8c_1a0639b448c4862618f597670523ef9975" compoundref="main_8c" startline="48">xSemaphore</references>
+        <references refid="structlogger__struct_1acc75b26fc2d74d1d7f7309a0edb4a608" compoundref="logger__task_8h" startline="36">logger_struct::task_name</references>
+        <references refid="structlogger__struct_1ad52bd755b5ebc942e533fff320241df5" compoundref="logger__task_8h" startline="37">logger_struct::ulTimeStamp</references>
+        <references refid="structled__struct_1a832adba5e0a1bb54be2437a3c8f73df2" compoundref="led__task_8h" startline="39">led_struct::toggle_count</references>
+        <references refid="structled__struct_1ae5cb967283dbbdf75cb2032c1fa08fee" compoundref="led__task_8h" startline="40">led_struct::name</references>
+        <references refid="logger__task_8h_1a27bfb5ed11da21b301ec5bbce6cba85b" compoundref="logger__task_8h" startline="31">queueHandle</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="8"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="led__task_8h" kindref="compound">inc/led_task.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/>SemaphoreHandle_t<sp/><ref refid="led__task_8c_1a0639b448c4862618f597670523ef9975" kindref="member">xSemaphore</ref>;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/>uint8_t<sp/><ref refid="led__task_8c_1a060e8052d305ed10611385341f4422db" kindref="member">toggleFlag</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="led__task_8c_1ab196be32809ec73ff1c1ed9e8f2d0358" refkind="member"><highlight class="normal"></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structlogger__struct" kindref="compound">logger_struct</ref><sp/><ref refid="led__task_8c_1ab196be32809ec73ff1c1ed9e8f2d0358" kindref="member">led_task_struct</ref>;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15" refid="led__task_8c_1a09ad99fa7d6601fbf66cdf9ee1c1b454" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="led__task_8c_1a09ad99fa7d6601fbf66cdf9ee1c1b454" kindref="member">ledToggleTask</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*pvParameters)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="led__task_8c_1ab196be32809ec73ff1c1ed9e8f2d0358" kindref="member">led_task_struct</ref>.<ref refid="structlogger__struct_1ac78f1b76e43362372e6ee6cd3b9f9c4f" kindref="member">data</ref>.<ref refid="unionlogger__struct_1_1data_1a98aa883fdacb14366e24164b40648903" kindref="member">led</ref><sp/>=<sp/>&amp;<ref refid="led__task_8h_1ad223c996c69019499c4049b7a349e41a" kindref="member">led_struct</ref>;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>xTimer_id<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>xTimerHandle<sp/>xLED_Timer;</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>xLED_Timer<sp/>=<sp/>xTimerCreate(</highlight><highlight class="stringliteral">&quot;LED_Toggler&quot;</highlight><highlight class="normal">,<sp/>pdMS_TO_TICKS(100),<sp/>pdTRUE,<sp/>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*)<sp/>xTimer_id,<sp/><ref refid="timer__callback_8h_1ae4caa6d350ad7f8ca97dcc0cd56885f9" kindref="member">vTimerCallback</ref>);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/>xTimerStart(<sp/>xLED_Timer,<sp/>0<sp/>);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>LED1State,<sp/>LED2State;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/>led_counter<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(1)</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(<ref refid="led__task_8c_1a060e8052d305ed10611385341f4422db" kindref="member">toggleFlag</ref>)</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>led_counter++;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LED1State<sp/>=<sp/>GPIOPinRead(CLP_D2_PORT,<sp/>CLP_D2_PIN);</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>LED2State<sp/>=<sp/>GPIOPinRead(CLP_D1_PORT,<sp/>CLP_D1_PIN);</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GPIOPinWrite(CLP_D2_PORT,<sp/>CLP_D2_PIN,<sp/>!LED1State);</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!LED2State)</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GPIOPinWrite(CLP_D1_PORT,<sp/>CLP_D1_PIN,<sp/>CLP_D1_PIN);</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>GPIOPinWrite(CLP_D1_PORT,<sp/>CLP_D1_PIN,<sp/>0);</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="led__task_8c_1a060e8052d305ed10611385341f4422db" kindref="member">toggleFlag</ref><sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xSemaphoreTake(<ref refid="led__task_8c_1a0639b448c4862618f597670523ef9975" kindref="member">xSemaphore</ref>,<sp/>0);</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>strcpy(<ref refid="led__task_8c_1ab196be32809ec73ff1c1ed9e8f2d0358" kindref="member">led_task_struct</ref>.<ref refid="structlogger__struct_1acc75b26fc2d74d1d7f7309a0edb4a608" kindref="member">task_name</ref>,</highlight><highlight class="stringliteral">&quot;LED&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="led__task_8c_1ab196be32809ec73ff1c1ed9e8f2d0358" kindref="member">led_task_struct</ref>.<ref refid="structlogger__struct_1ad52bd755b5ebc942e533fff320241df5" kindref="member">ulTimeStamp</ref><sp/>=<sp/>xTaskGetTickCount();</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sprintf(<ref refid="led__task_8c_1ab196be32809ec73ff1c1ed9e8f2d0358" kindref="member">led_task_struct</ref>.<ref refid="structlogger__struct_1ac78f1b76e43362372e6ee6cd3b9f9c4f" kindref="member">data</ref>.<ref refid="unionlogger__struct_1_1data_1a98aa883fdacb14366e24164b40648903" kindref="member">led</ref>-&gt;<ref refid="structled__struct_1a832adba5e0a1bb54be2437a3c8f73df2" kindref="member">toggle_count</ref>,</highlight><highlight class="stringliteral">&quot;LED<sp/>Count<sp/>=<sp/>%d&quot;</highlight><highlight class="normal">,<sp/>led_counter);</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>sprintf(<ref refid="led__task_8c_1ab196be32809ec73ff1c1ed9e8f2d0358" kindref="member">led_task_struct</ref>.<ref refid="structlogger__struct_1ac78f1b76e43362372e6ee6cd3b9f9c4f" kindref="member">data</ref>.<ref refid="unionlogger__struct_1_1data_1a98aa883fdacb14366e24164b40648903" kindref="member">led</ref>-&gt;<ref refid="structled__struct_1ae5cb967283dbbdf75cb2032c1fa08fee" kindref="member">name</ref>,<sp/></highlight><highlight class="stringliteral">&quot;Name<sp/>=<sp/>Sanju&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xQueueSendToBack(<ref refid="logger__task_8h_1a27bfb5ed11da21b301ec5bbce6cba85b" kindref="member">queueHandle</ref>,(<sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*<sp/>)<sp/>&amp;<ref refid="led__task_8c_1ab196be32809ec73ff1c1ed9e8f2d0358" kindref="member">led_task_struct</ref>,<sp/>10)<sp/>;</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>xSemaphoreGive(<ref refid="led__task_8c_1a0639b448c4862618f597670523ef9975" kindref="member">xSemaphore</ref>);</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="55"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/led_task.c"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir">
+    <compoundname>src</compoundname>
+    <innerfile refid="alert__task_8c">alert_task.c</innerfile>
+    <innerfile refid="i2c__task_8c">i2c_task.c</innerfile>
+    <innerfile refid="led__task_8c">led_task.c</innerfile>
+    <innerfile refid="logger__task_8c">logger_task.c</innerfile>
+    <innerfile refid="timer__callback_8c">timer_callback.c</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/"/>
+  </compounddef>
+</doxygen>

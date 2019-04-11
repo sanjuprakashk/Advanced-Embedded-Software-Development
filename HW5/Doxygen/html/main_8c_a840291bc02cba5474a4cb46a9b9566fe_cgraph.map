@@ -1,0 +1,10 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,107,56,133"/>
+<area shape="rect" id="node2" href="$i2c__task_8h.html#a64303230bf4843297e7ac37ac236ca04" title=" " alt="" coords="125,5,188,32"/>
+<area shape="rect" id="node3" href="$led__task_8h.html#a09ad99fa7d6601fbf66cdf9ee1c1b454" title=" " alt="" coords="104,56,209,83"/>
+<area shape="rect" id="node5" href="$alert__task_8h.html#aa8ed6c7d06199362625b236b9ced267a" title=" " alt="" coords="119,107,194,133"/>
+<area shape="rect" id="node6" href="$i2c__task_8h.html#a6c1c15219c8f3fadb64d38a41254cb35" title=" " alt="" coords="110,157,203,184"/>
+<area shape="rect" id="node8" href="$logger__task_8h.html#a602e068119bc12b4f0055559d9770f87" title=" " alt="" coords="114,208,199,235"/>
+<area shape="rect" id="node4" href="$timer__callback_8h.html#ae4caa6d350ad7f8ca97dcc0cd56885f9" title=" " alt="" coords="257,56,367,83"/>
+<area shape="rect" id="node7" href="$i2c__task_8c.html#aa40be7a8925dc4aa79b1ee7b489e0497" title=" " alt="" coords="261,157,363,184"/>
+</map>

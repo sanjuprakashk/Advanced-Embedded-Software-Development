@@ -1,0 +1,11 @@
+<map id="inc/logger_task.h" name="inc/logger_task.h">
+<area shape="rect" id="node1" title=" " alt="" coords="197,5,318,32"/>
+<area shape="rect" id="node2" href="$i2c__task_8h.html" title=" " alt="" coords="337,80,439,107"/>
+<area shape="rect" id="node3" href="$main_8c.html" title=" " alt="" coords="133,155,195,181"/>
+<area shape="rect" id="node5" href="$led__task_8h.html" title=" " alt="" coords="23,80,126,107"/>
+<area shape="rect" id="node7" href="$alert__task_8h.html" title=" " alt="" coords="202,80,313,107"/>
+<area shape="rect" id="node9" href="$logger__task_8c.html" title=" " alt="" coords="464,80,587,107"/>
+<area shape="rect" id="node4" href="$i2c__task_8c.html" title=" " alt="" coords="355,155,459,181"/>
+<area shape="rect" id="node6" href="$led__task_8c.html" title=" " alt="" coords="5,155,109,181"/>
+<area shape="rect" id="node8" href="$alert__task_8c.html" title=" " alt="" coords="219,155,331,181"/>
+</map>

@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="timer__callback_8h" kind="file" language="C++">
+    <compoundname>timer_callback.h</compoundname>
+    <includes local="no">stdio.h</includes>
+    <includes local="no">stdint.h</includes>
+    <includes local="yes">FreeRTOS.h</includes>
+    <includes local="yes">timers.h</includes>
+    <includedby refid="led__task_8h" local="yes">inc/led_task.h</includedby>
+    <includedby refid="main_8c" local="yes">main.c</includedby>
+    <includedby refid="timer__callback_8c" local="yes">src/timer_callback.c</includedby>
+    <incdepgraph>
+      <node id="120">
+        <label>inc/timer_callback.h</label>
+        <link refid="timer__callback_8h"/>
+        <childnode refid="121" relation="include">
+        </childnode>
+        <childnode refid="122" relation="include">
+        </childnode>
+        <childnode refid="123" relation="include">
+        </childnode>
+        <childnode refid="124" relation="include">
+        </childnode>
+      </node>
+      <node id="122">
+        <label>stdint.h</label>
+      </node>
+      <node id="124">
+        <label>timers.h</label>
+      </node>
+      <node id="121">
+        <label>stdio.h</label>
+      </node>
+      <node id="123">
+        <label>FreeRTOS.h</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="127">
+        <label>inc/logger_task.h</label>
+        <link refid="logger__task_8h"/>
+        <childnode refid="128" relation="include">
+        </childnode>
+        <childnode refid="126" relation="include">
+        </childnode>
+        <childnode refid="131" relation="include">
+        </childnode>
+        <childnode refid="129" relation="include">
+        </childnode>
+        <childnode refid="133" relation="include">
+        </childnode>
+      </node>
+      <node id="125">
+        <label>inc/timer_callback.h</label>
+        <link refid="timer__callback_8h"/>
+        <childnode refid="126" relation="include">
+        </childnode>
+        <childnode refid="129" relation="include">
+        </childnode>
+        <childnode refid="135" relation="include">
+        </childnode>
+      </node>
+      <node id="131">
+        <label>inc/alert_task.h</label>
+        <link refid="alert__task_8h"/>
+        <childnode refid="127" relation="include">
+        </childnode>
+        <childnode refid="129" relation="include">
+        </childnode>
+        <childnode refid="132" relation="include">
+        </childnode>
+      </node>
+      <node id="134">
+        <label>src/led_task.c</label>
+        <link refid="led__task_8c"/>
+      </node>
+      <node id="129">
+        <label>main.c</label>
+        <link refid="main_8c"/>
+      </node>
+      <node id="135">
+        <label>src/timer_callback.c</label>
+        <link refid="timer__callback_8c"/>
+      </node>
+      <node id="132">
+        <label>src/alert_task.c</label>
+        <link refid="alert__task_8c"/>
+      </node>
+      <node id="128">
+        <label>inc/i2c_task.h</label>
+        <link refid="i2c__task_8h"/>
+        <childnode refid="129" relation="include">
+        </childnode>
+        <childnode refid="127" relation="include">
+        </childnode>
+        <childnode refid="130" relation="include">
+        </childnode>
+      </node>
+      <node id="130">
+        <label>src/i2c_task.c</label>
+        <link refid="i2c__task_8c"/>
+      </node>
+      <node id="126">
+        <label>inc/led_task.h</label>
+        <link refid="led__task_8h"/>
+        <childnode refid="127" relation="include">
+        </childnode>
+        <childnode refid="129" relation="include">
+        </childnode>
+        <childnode refid="134" relation="include">
+        </childnode>
+      </node>
+      <node id="133">
+        <label>src/logger_task.c</label>
+        <link refid="logger__task_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="timer__callback_8h_1ae4caa6d350ad7f8ca97dcc0cd56885f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void vTimerCallback</definition>
+        <argsstring>(TimerHandle_t *pxTimer)</argsstring>
+        <name>vTimerCallback</name>
+        <param>
+          <type>TimerHandle_t *</type>
+          <declname>pxTimer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>\file <ref refid="timer__callback_8h" kindref="compound">timer_callback.h</ref> \author Sanju Prakash Kannioth \brief This files contains the declarations and header files for the timer module \date 04/10/2019 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="inc/timer_callback.h" line="31" column="1" bodyfile="src/timer_callback.c" bodystart="12" bodyend="15"/>
+        <references refid="timer__callback_8c_1a060e8052d305ed10611385341f4422db" compoundref="timer__callback_8c" startline="10">toggleFlag</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="8"><highlight class="preprocessor">#ifndef<sp/>TIMER_CALLBACK_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>TIMER_CALLBACK_H</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">/*****************************************************************</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Includes</highlight></codeline>
+<codeline lineno="13"><highlight class="comment">*****************************************************************/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdio.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;FreeRTOS.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;timers.h&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="21"><highlight class="comment">--------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="22"><highlight class="comment">vTimerCallback</highlight></codeline>
+<codeline lineno="23"><highlight class="comment">--------------------------------------------------------------------------------------------</highlight></codeline>
+<codeline lineno="24"><highlight class="comment">*<sp/><sp/><sp/>This<sp/>functions<sp/>is<sp/>used<sp/>as<sp/>the<sp/>callback<sp/>function<sp/>for<sp/>the<sp/>timer</highlight></codeline>
+<codeline lineno="25"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="26"><highlight class="comment">*<sp/><sp/><sp/>@\param<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>pxTimer<sp/>-<sp/>timer<sp/>handle</highlight></codeline>
+<codeline lineno="27"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="28"><highlight class="comment">*<sp/><sp/><sp/>@\return<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>void</highlight></codeline>
+<codeline lineno="29"><highlight class="comment">*</highlight></codeline>
+<codeline lineno="30"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="timer__callback_8h_1ae4caa6d350ad7f8ca97dcc0cd56885f9" kindref="member">vTimerCallback</ref>(TimerHandle_t<sp/><sp/>*pxTimer<sp/>);</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="inc/timer_callback.h"/>
+  </compounddef>
+</doxygen>

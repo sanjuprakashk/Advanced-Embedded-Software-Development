@@ -1,0 +1,251 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.15">
+  <compounddef id="logger__task_8c" kind="file" language="C++">
+    <compoundname>logger_task.c</compoundname>
+    <includes refid="logger__task_8h" local="yes">inc/logger_task.h</includes>
+    <incdepgraph>
+      <node id="241">
+        <label>stdbool.h</label>
+      </node>
+      <node id="238">
+        <label>inc/logger_task.h</label>
+        <link refid="logger__task_8h"/>
+        <childnode refid="239" relation="include">
+        </childnode>
+        <childnode refid="240" relation="include">
+        </childnode>
+        <childnode refid="241" relation="include">
+        </childnode>
+        <childnode refid="242" relation="include">
+        </childnode>
+        <childnode refid="243" relation="include">
+        </childnode>
+        <childnode refid="244" relation="include">
+        </childnode>
+        <childnode refid="245" relation="include">
+        </childnode>
+        <childnode refid="246" relation="include">
+        </childnode>
+        <childnode refid="257" relation="include">
+        </childnode>
+        <childnode refid="258" relation="include">
+        </childnode>
+      </node>
+      <node id="248">
+        <label>driverlib/inc/hw_memmap.h</label>
+      </node>
+      <node id="256">
+        <label>inc/timer_callback.h</label>
+        <link refid="timer__callback_8h"/>
+        <childnode refid="239" relation="include">
+        </childnode>
+        <childnode refid="240" relation="include">
+        </childnode>
+        <childnode refid="244" relation="include">
+        </childnode>
+        <childnode refid="255" relation="include">
+        </childnode>
+      </node>
+      <node id="250">
+        <label>driverlib/sysctl.h</label>
+      </node>
+      <node id="245">
+        <label>queue.h</label>
+      </node>
+      <node id="240">
+        <label>stdint.h</label>
+      </node>
+      <node id="258">
+        <label>inc/alert_task.h</label>
+        <link refid="alert__task_8h"/>
+        <childnode refid="239" relation="include">
+        </childnode>
+        <childnode refid="240" relation="include">
+        </childnode>
+        <childnode refid="241" relation="include">
+        </childnode>
+        <childnode refid="242" relation="include">
+        </childnode>
+        <childnode refid="244" relation="include">
+        </childnode>
+        <childnode refid="253" relation="include">
+        </childnode>
+        <childnode refid="245" relation="include">
+        </childnode>
+        <childnode refid="254" relation="include">
+        </childnode>
+        <childnode refid="238" relation="include">
+        </childnode>
+      </node>
+      <node id="249">
+        <label>driverlib/pin_map.h</label>
+      </node>
+      <node id="242">
+        <label>string.h</label>
+      </node>
+      <node id="254">
+        <label>semphr.h</label>
+      </node>
+      <node id="251">
+        <label>driverlib/gpio.h</label>
+      </node>
+      <node id="252">
+        <label>drivers/pinout.h</label>
+      </node>
+      <node id="247">
+        <label>driverlib/i2c.h</label>
+      </node>
+      <node id="255">
+        <label>timers.h</label>
+      </node>
+      <node id="257">
+        <label>inc/i2c_task.h</label>
+        <link refid="i2c__task_8h"/>
+        <childnode refid="239" relation="include">
+        </childnode>
+        <childnode refid="240" relation="include">
+        </childnode>
+        <childnode refid="241" relation="include">
+        </childnode>
+        <childnode refid="242" relation="include">
+        </childnode>
+        <childnode refid="247" relation="include">
+        </childnode>
+        <childnode refid="248" relation="include">
+        </childnode>
+        <childnode refid="249" relation="include">
+        </childnode>
+        <childnode refid="250" relation="include">
+        </childnode>
+        <childnode refid="251" relation="include">
+        </childnode>
+        <childnode refid="244" relation="include">
+        </childnode>
+        <childnode refid="253" relation="include">
+        </childnode>
+        <childnode refid="245" relation="include">
+        </childnode>
+        <childnode refid="254" relation="include">
+        </childnode>
+        <childnode refid="238" relation="include">
+        </childnode>
+      </node>
+      <node id="246">
+        <label>inc/led_task.h</label>
+        <link refid="led__task_8h"/>
+        <childnode refid="239" relation="include">
+        </childnode>
+        <childnode refid="240" relation="include">
+        </childnode>
+        <childnode refid="241" relation="include">
+        </childnode>
+        <childnode refid="242" relation="include">
+        </childnode>
+        <childnode refid="247" relation="include">
+        </childnode>
+        <childnode refid="248" relation="include">
+        </childnode>
+        <childnode refid="249" relation="include">
+        </childnode>
+        <childnode refid="250" relation="include">
+        </childnode>
+        <childnode refid="251" relation="include">
+        </childnode>
+        <childnode refid="252" relation="include">
+        </childnode>
+        <childnode refid="244" relation="include">
+        </childnode>
+        <childnode refid="253" relation="include">
+        </childnode>
+        <childnode refid="245" relation="include">
+        </childnode>
+        <childnode refid="254" relation="include">
+        </childnode>
+        <childnode refid="255" relation="include">
+        </childnode>
+        <childnode refid="238" relation="include">
+        </childnode>
+        <childnode refid="256" relation="include">
+        </childnode>
+      </node>
+      <node id="243">
+        <label>utils/uartstdio.h</label>
+      </node>
+      <node id="239">
+        <label>stdio.h</label>
+      </node>
+      <node id="244">
+        <label>FreeRTOS.h</label>
+      </node>
+      <node id="237">
+        <label>src/logger_task.c</label>
+        <link refid="logger__task_8c"/>
+        <childnode refid="238" relation="include">
+        </childnode>
+      </node>
+      <node id="253">
+        <label>task.h</label>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="logger__task_8c_1a602e068119bc12b4f0055559d9770f87" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void loggerTask</definition>
+        <argsstring>(void *pvParameters)</argsstring>
+        <name>loggerTask</name>
+        <param>
+          <type>void *</type>
+          <declname>pvParameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>\file <ref refid="logger__task_8c" kindref="compound">logger_task.c</ref> \author Sanju Prakash Kannioth \brief This files contains the function definitions for the logger module \date 04/10/2019 </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="src/logger_task.c" line="11" column="1" bodyfile="src/logger_task.c" bodystart="11" bodyend="28"/>
+        <references refid="logger__task_8h_1a27bfb5ed11da21b301ec5bbce6cba85b" compoundref="logger__task_8h" startline="31">queueHandle</references>
+        <references refid="structlogger__struct_1acc75b26fc2d74d1d7f7309a0edb4a608" compoundref="logger__task_8h" startline="36">logger_struct::task_name</references>
+        <references refid="structlogger__struct_1ad52bd755b5ebc942e533fff320241df5" compoundref="logger__task_8h" startline="37">logger_struct::ulTimeStamp</references>
+        <references refid="structlogger__struct_1ac78f1b76e43362372e6ee6cd3b9f9c4f">logger_struct::data</references>
+        <references refid="unionlogger__struct_1_1data_1a98aa883fdacb14366e24164b40648903" compoundref="logger__task_8h" startline="42">logger_struct::data::led</references>
+        <references refid="structled__struct_1a832adba5e0a1bb54be2437a3c8f73df2" compoundref="led__task_8h" startline="39">led_struct::toggle_count</references>
+        <references refid="structled__struct_1ae5cb967283dbbdf75cb2032c1fa08fee" compoundref="led__task_8h" startline="40">led_struct::name</references>
+        <references refid="unionlogger__struct_1_1data_1a6600716eb0c18dc636b6ba8942dd8627" compoundref="logger__task_8h" startline="41">logger_struct::data::temp</references>
+        <references refid="structtemperature__struct_1ae24c4d0933e7b6558f90af91715b736a" compoundref="i2c__task_8h" startline="38">temperature_struct::temp</references>
+        <references refid="unionlogger__struct_1_1data_1a7c2de7362dd7a4977188c646b7747ffa" compoundref="logger__task_8h" startline="43">logger_struct::data::alert</references>
+        <references refid="structalert__struct_1aaaafa009a09af6ff0dd8dc84dd149f8f" compoundref="alert__task_8h" startline="29">alert_struct::notification</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"></codeline>
+<codeline lineno="8"><highlight class="preprocessor">#include<sp/>&quot;<ref refid="logger__task_8h" kindref="compound">inc/logger_task.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11" refid="logger__task_8c_1a602e068119bc12b4f0055559d9770f87" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="logger__task_8c_1a602e068119bc12b4f0055559d9770f87" kindref="member">loggerTask</ref>(</highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/>*pvParameters)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal"><ref refid="structlogger__struct" kindref="compound">logger_struct</ref><sp/>logger;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(1)</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(xQueueReceive(<ref refid="logger__task_8h_1a27bfb5ed11da21b301ec5bbce6cba85b" kindref="member">queueHandle</ref>,<sp/>&amp;logger,<sp/>10)<sp/>==<sp/>pdTRUE)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(strcmp(logger.<ref refid="structlogger__struct_1acc75b26fc2d74d1d7f7309a0edb4a608" kindref="member">task_name</ref>,<sp/></highlight><highlight class="stringliteral">&quot;LED&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UARTprintf(</highlight><highlight class="stringliteral">&quot;\n[Timestamp:%d]<sp/>%s<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/>logger.<ref refid="structlogger__struct_1ad52bd755b5ebc942e533fff320241df5" kindref="member">ulTimeStamp</ref>,<sp/>logger.<ref refid="structlogger__struct_1ac78f1b76e43362372e6ee6cd3b9f9c4f" kindref="member">data</ref>.<ref refid="unionlogger__struct_1_1data_1a98aa883fdacb14366e24164b40648903" kindref="member">led</ref>-&gt;<ref refid="structled__struct_1a832adba5e0a1bb54be2437a3c8f73df2" kindref="member">toggle_count</ref>,<sp/>logger.<ref refid="structlogger__struct_1ac78f1b76e43362372e6ee6cd3b9f9c4f" kindref="member">data</ref>.<ref refid="unionlogger__struct_1_1data_1a98aa883fdacb14366e24164b40648903" kindref="member">led</ref>-&gt;<ref refid="structled__struct_1ae5cb967283dbbdf75cb2032c1fa08fee" kindref="member">name</ref>);</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(strcmp(logger.<ref refid="structlogger__struct_1acc75b26fc2d74d1d7f7309a0edb4a608" kindref="member">task_name</ref>,<sp/></highlight><highlight class="stringliteral">&quot;TEMP&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UARTprintf(</highlight><highlight class="stringliteral">&quot;\n[Timestamp:%d]<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/>logger.<ref refid="structlogger__struct_1ad52bd755b5ebc942e533fff320241df5" kindref="member">ulTimeStamp</ref>,<sp/>logger.<ref refid="structlogger__struct_1ac78f1b76e43362372e6ee6cd3b9f9c4f" kindref="member">data</ref>.<ref refid="unionlogger__struct_1_1data_1a6600716eb0c18dc636b6ba8942dd8627" kindref="member">temp</ref>-&gt;<ref refid="structtemperature__struct_1ae24c4d0933e7b6558f90af91715b736a" kindref="member">temp</ref>);</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">else</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(strcmp(logger.<ref refid="structlogger__struct_1acc75b26fc2d74d1d7f7309a0edb4a608" kindref="member">task_name</ref>,<sp/></highlight><highlight class="stringliteral">&quot;ALERT&quot;</highlight><highlight class="normal">)<sp/>==<sp/>0)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>UARTprintf(</highlight><highlight class="stringliteral">&quot;\n[Timestamp:%d]<sp/>%s\n&quot;</highlight><highlight class="normal">,<sp/>logger.<ref refid="structlogger__struct_1ad52bd755b5ebc942e533fff320241df5" kindref="member">ulTimeStamp</ref>,<sp/>logger.<ref refid="structlogger__struct_1ac78f1b76e43362372e6ee6cd3b9f9c4f" kindref="member">data</ref>.<ref refid="unionlogger__struct_1_1data_1a7c2de7362dd7a4977188c646b7747ffa" kindref="member">alert</ref>-&gt;<ref refid="structalert__struct_1aaaafa009a09af6ff0dd8dc84dd149f8f" kindref="member">notification</ref>);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="src/logger_task.c"/>
+  </compounddef>
+</doxygen>

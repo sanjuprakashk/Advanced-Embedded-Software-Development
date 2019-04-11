@@ -1,0 +1,13 @@
+<map id="inc/timer_callback.h" name="inc/timer_callback.h">
+<area shape="rect" id="node1" title=" " alt="" coords="99,5,237,32"/>
+<area shape="rect" id="node2" href="$led__task_8h.html" title=" " alt="" coords="117,80,219,107"/>
+<area shape="rect" id="node5" href="$main_8c.html" title=" " alt="" coords="317,304,379,331"/>
+<area shape="rect" id="node11" href="$timer__callback_8c.html" title=" " alt="" coords="244,80,383,107"/>
+<area shape="rect" id="node3" href="$logger__task_8h.html" title=" " alt="" coords="349,155,470,181"/>
+<area shape="rect" id="node10" href="$led__task_8c.html" title=" " alt="" coords="27,155,131,181"/>
+<area shape="rect" id="node4" href="$i2c__task_8h.html" title=" " alt="" coords="403,229,506,256"/>
+<area shape="rect" id="node7" href="$alert__task_8h.html" title=" " alt="" coords="530,229,641,256"/>
+<area shape="rect" id="node9" href="$logger__task_8c.html" title=" " alt="" coords="205,229,328,256"/>
+<area shape="rect" id="node6" href="$i2c__task_8c.html" title=" " alt="" coords="403,304,507,331"/>
+<area shape="rect" id="node8" href="$alert__task_8c.html" title=" " alt="" coords="531,304,643,331"/>
+</map>
